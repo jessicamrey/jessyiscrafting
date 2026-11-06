@@ -1,0 +1,583 @@
+{
+  "home": {
+    "hero": {
+      "eyebrow": "Handmade · Made with care",
+      "title": "Craftsmanship with a forest soul",
+      "tagline": "\"Every piece grows slowly, like a tree.\"",
+      "subtitle": "Carved Farkle sets, oil paintings, digital illustration and hand-painted figures. Unique pieces, inspired by nature and the medieval worlds I love most, created one by one from Spain.",
+      "ctaStore": "Visit the shop"
+    },
+    "quicklinks": {
+      "store": {
+        "title": "Shop",
+        "text": "Crafts, paintings, drawings and figures ready to order."
+      },
+      "collab": {
+        "title": "Collaborations",
+        "text": "Commissions, joint projects and professional work."
+      },
+      "inspiration": {
+        "title": "Inspiration",
+        "text": "Video games, reading and the worlds that shape my work."
+      }
+    },
+    "galleryTeaser": {
+      "eyebrow": "A peek into the workshop",
+      "title": "A walk through the gallery",
+      "text": "Finished pieces, unique objects that are not for sale and digital drawings of all kinds.",
+      "cta": "See the full gallery"
+    },
+    "featured": {
+      "eyebrow": "Featured pieces",
+      "title": "A few of my favourite pieces",
+      "subtitle": "A small taste of what you'll find in the shop: wood, resin, paint and a lot of patience.",
+      "cta": "See the whole shop"
+    },
+    "story": {
+      "photoCaption": "Photo of Jessy in her workshop (coming soon)",
+      "eyebrow": "Behind every piece",
+      "title": "Made slowly, made with care",
+      "text1": "I'm Jessy, and behind JessyIsCrafting there are hours of sanding, fine brushes and many cups of tea. Every piece is thought through, sketched and refined until I feel it truly deserves to leave my worktable.",
+      "text2": "I'm not after mass production: I want you to open the box and feel that someone genuinely cared about what you're holding."
+    },
+    "cta": {
+      "eyebrow": "Have something in mind?",
+      "title": "Let's talk about your special order",
+      "text": "Personalised gifts, pieces for celebrations, illustration commissions or collaboration projects: tell me your idea and we'll turn it into something one of a kind.",
+      "ctaCustom": "Custom pieces & gifts",
+      "ctaContact": "Get in touch"
+    }
+  },
+  "store": {
+    "eyebrow": "Shop",
+    "title": "Every category, a different way of telling the same story",
+    "subtitle": "Wooden crafts and hand-painted figures. Everything is made to order or in very short batches, so every piece is practically one of a kind.",
+    "filters": {
+      "all": "All"
+    },
+    "empty": "There are no pieces in this category yet — check back soon!",
+    "ctaTitle": "Can't find exactly what you're looking for?",
+    "ctaText": "Almost all of my pieces can be customised: colours, initials, crests, canvas sizes or your own character. Tell me what you have in mind.",
+    "ctaButton": "Request a custom piece"
+  },
+  "cart": {
+    "title": "Your cart",
+    "empty": "Your cart is empty.",
+    "addButton": "Add to cart",
+    "remove": "Remove",
+    "checkout": "Request a quote",
+    "checkoutSubject": "Quote request",
+    "checkoutMessage": "Hi, I'd like a quote for:",
+    "quantityLabel": "Quantity",
+    "openCart": "Open cart"
+  },
+  "nav": {
+    "storeCategories": {
+      "artesanias": "Crafts",
+      "dibujos": "Digital drawing",
+      "cuadros": "Paintings",
+      "figuras": "Figures"
+    },
+    "home": "Home",
+    "store": "Shop",
+    "gallery": "Gallery",
+    "fanfics": "Fanfics",
+    "inspiration": "Inspiration",
+    "contact": "Contact",
+    "faq": "FAQ",
+    "langLabel": "Language"
+  },
+  "productDetail": {
+    "notFound": "We couldn't find this piece. It may no longer be available — take a look at the rest of the shop.",
+    "customizationTitle": "Customisation available",
+    "orderButton": "Ask about or order a made-to-measure piece",
+    "backToStore": "Back to the shop",
+    "zoomImage": "Enlarge image",
+    "taxNote": "Taxes included · Fast, protected shipping",
+    "availabilityInStock": "In stock",
+    "availabilityOutOfStock": "Out of stock",
+    "customChoiceLabel": "Customisation",
+    "customNone": "No customisation",
+    "customYes": "Customise",
+    "customFinishLabel": "Lid finish",
+    "addonsTitle": "Want to complete your set?",
+    "addonsTag": "Add-ons",
+    "customSelected": "Selected",
+    "customSizeLabel": "Size",
+    "customNotesLabel": "Details of your customisation (optional)",
+    "customNotesPlaceholder": "Describe what you want",
+    "customLabel": "Customised",
+    "qtyDecrease": "Decrease quantity",
+    "qtyIncrease": "Increase quantity",
+    "shippingNote": "Shipping to Spain, the European Union and the United Kingdom. For other countries, please get in touch before ordering. More details in the FAQ.",
+    "relatedEyebrow": "You might also like",
+    "relatedTitle": "More pieces from the same family"
+  },
+  "search": {
+    "label": "Search the site",
+    "placeholder": "Search...",
+    "empty": "No results",
+    "types": { "product": "Shop", "work": "Gallery", "fanfic": "Fanfic", "chapter": "Chapter" }
+  },
+  "works": {
+    "backToGallery": "Back to the gallery",
+    "consultButton": "Ask about this piece",
+    "notFound": "We could not find this piece. You can go back to the gallery to see the rest.",
+    "items": {
+      "caballero": { "title": "Sir Henry", "description": "Hand-painted miniature of Sir Henry, with every detail of the armour worked with a fine brush. Layers of colour build up slowly to give depth to the metal and the fabrics, without losing the character of a figure made to be seen up close.\n\nI chose the colours from the start of Kingdom Come: Deliverance 2, because I personally like seeing Henry in the colours of Leipa. I also customised the shield, flattening it so I could paint the Leipa emblem.\n\nThis photo session was special. I took this figure to the village of Skalitz in real life and photographed it on the only stone left from Skalitz Castle. In the end, Henry came home as Sir Henry." },
+      "minas-tirith": { "title": "Gandalf Arriving at Minas Tirith", "description": "Oil on canvas showing Minas Tirith among the mountains, painted with thin glazes to capture the light of the first hours of the day. The composition guides the eye from the road to the walls, where each stone is worked with short, precise brushstrokes." },
+      "set-farkle-blason": { "title": "Farkle Board", "description": "Farkle board in 20 cm x 20 cm box format, hand-painted and decorated with your favourite crests or motifs. Every detail, from the wood stain to the brushstrokes of the crest, is finished piece by piece." },
+      "set-farkle": { "title": "Complete Farkle Set", "description": "Farkle board in 20 cm x 20 cm box format, hand-painted and decorated, with 12 hand-engraved wooden dice, 4 special dice to choose, two hand-stitched synthetic leather dice cups and 50 wooden groschen painted one by one." },
+      "mini-farkle-viajero": { "title": "Travel Mini Farkle", "description": "Compact version of the Farkle set, 12 cm x 12 cm and made for travelling. Includes 12 regular dice and 4 special ones, all hand-engraved." },
+      "set-dados-artesanales": { "title": "Handcrafted Dice Set", "description": "Set of 12 hand-engraved wooden dice, 2 cm x 2 cm, plus 4 special dice that can be customised." },
+      "groschens-madera-50": { "title": "Wooden Groschen", "description": "50 wooden coins that emulate the design of Bohemian groschen. Painted and varnished one by one, kept in a raffia bag." },
+      "cubilete-artesanal": { "title": "Artisan Dice Cup", "description": "Synthetic leather dice cup, 10 cm tall, ideal for rolling dice. Hand-stitched with an elegant X pattern." },
+      "abanicos-artesanales": { "title": "Handcrafted Fans", "description": "Elegant hand-painted fans. The Leipa crest is painted over the Phoenix pattern of Hans Capon's gambeson, and the Skalitz crest is painted over a medieval hunting pattern with dogs, on a blue background representing Henry and the silver of Skalitz." },
+      "luminoso": { "title": "Luminous", "description": "A digital illustration of an armoured figure and a white horse wrapped in mist. Light enters from an undefined point in the background and travels across the metallic surfaces, creating a soft contrast between shadows and reflections." },
+      "jinete": { "title": "Heraldic rider", "description": "A piece inspired by the Collector's Edition of Kingdom Come: Deliverance 2. I preferred to show Henry's face, without a helmet, conveying the strain of someone in battle. The weapon he carries is Sir Radzig's sword, which Henry will inherit in the future.\n\nI personally like the colours of Leipa, so I chose yellows and blacks for the horse's harness, as well as the Leipa emblem on the shield Henry carries. I painted the horse in Pebbles' colours, a horse I am especially fond of.\n\nTo finish the figure, I added elements to imitate shrubs and undergrowth, giving the piece much more realism and depth." },
+      "heinrich": { "title": "Heinrich's scene", "description": "Scene created for my fanfic Beyond The Crossroads, where Hans Capon's son, Heinrich, watches from the bed. Waiting in his father's room in Pirkstejn, he carefully observes the Leipa shield and the two crossed swords of Hans and Henry." },
+      "henry-explorando": { "title": "Henry Exploring", "description": "A digital illustration of Henry on horseback, riding through a pine forest wrapped in mist. Light enters from the clearing in the background and runs across his armour, the red cloak and the horse's mane, while the landscape fades into green and grey shadows." },
+      "luke-dale-ardillas": { "title": "Luke Dale and the Squirrels", "description": "A digital illustration based on an anecdote about Luke Dale. A man sits among gravestones in a grassy cemetery, surrounded by squirrels coming in for nuts. The scene mixes the everyday with the unexpected, and each animal has its own pose and its own moment." },
+      "reinhart-daku": { "title": "Reinhart and Daku", "description": "A digital illustration of two characters from a fiction work not yet published. Reinhart, in a purple formal coat, offers an apple to Daku, who rests in the grass among autumn apple trees." },
+      "emotes-twitch": { "title": "Twitch Emote Pack", "description": "An emote pack drawn for a Twitch contest. Three expressions of the same character, each with its own gesture: writing with a pencil on a sheet of paper, raising a beer mug, and stirring a bubbling cauldron over the fire. Designed to read at a glance and work in chat at small sizes." },
+      "lune": { "title": "Lune", "description": "Figure on an effects base, painted with transitions of fire and ice. Classic Expedition 33 outfit painted with gold and silver edges, which catch the light and give it a much more realistic look." },
+      "horreo-gallego": { "title": "Galician Hórreo", "description": "A Galician hórreo, the traditional granary raised on stone pillars to keep the corn safe from damp and rodents. A piece dedicated to the vernacular architecture of Galicia, with its simple forms and the marks of time on every plank." },
+      "bosque": { "title": "Corner of the forest", "description": "An oil on slate of a stream running through a dense forest. The scene is built with layers of greens and ochres, letting the light filtering through the trees mark the path of the water." },
+      "renoir": { "title": "Renoir", "description": "Renoir figure in his classic outfit, stained with golden brushstrokes. The seams are painted silver, catching the light, and the base is meant to simulate a moss-covered ground with fallen red leaves." },
+      "diorama-brutus": { "title": "Brutus Diorama", "description": "I loved Tom McKay's performance in the play Julius Caesar so much that I had to make a figure to commemorate it.\n\nI designed the base from scratch, inspired by the stage facade of Shakespeare's Globe, so I could literally put the character of Brutus on the stage.\n\nThe pose is taken directly from the play, one of my favourites, where the elements of the period costume are perfectly visible. Beautiful performance." },
+      "figura-reencuentro": { "title": "The Reunion", "description": "This moment of reunion, one of my favourite scenes from Kingdom Come: Deliverance 2. After countless ordeals, Henry finally manages to rescue Hans, and this embrace is a very special moment.\n\nIt is the first time Hans throws himself into Henry's arms, and their expressions say it all. Moving from genuine relief to the fullest expression of joy, ending in a heartfelt hug." },
+      "figura-dobby": { "title": "Dobby", "description": "Hand-painted Dobby figure with his sock. Skin and cloth tones are built up in thin layers so the character keeps its expression and mischievous air." }
+    }
+  },
+  "gallery": {
+    "eyebrow": "Gallery",
+    "title": "A walk through the workshop",
+    "subtitle": "Here you'll find all my work: from my first oil paintings to my latest resin pieces, including different crafts and drawings. Tap any image to see its details.",
+    "filters": { "all": "All", "figuras": "Figures", "artesanias": "Crafts", "cuadros": "Paintings", "dibujos": "Digital drawings" },
+    "sections": {
+      "figuras": { "title": "Modelling & Figures", "meta": "Miniatures and dioramas" },
+      "artesanias": { "title": "Crafts", "meta": "Unique pieces and one-of-a-kind objects" },
+      "cuadros": { "title": "Paintings & Canvases", "meta": "Hand-painted paintings" },
+      "dibujos": { "title": "Digital drawings", "meta": "Digital illustration", "link": "See all drawings →" }
+    },
+    "viewDetail": "View details",
+    "captions": {
+      "caballero": "Sir Henry of Skalitz",
+      "minasTirith": "Oil on canvas. Gandalf arriving at Minas Tirith.",
+      "farkleDetalle": "Detail of the hand-carved crest.",
+      "abanicos": "Spanish fan",
+      "henryPaseando": "Henry strolling through Bohemia",
+      "luminoso": "Digital illustration, light through the mist.",
+      "jinete": "Special edition: Henry on horseback",
+      "heinrich": "Narrative scene, digital illustration.",
+      "henryExplorando": "Digital illustration, Henry exploring the forest.",
+      "lukeDaleArdillas": "Digital illustration, Luke Dale and the squirrels.",
+      "reinhartDaku": "Digital illustration, Reinhart and Daku.",
+      "setFarkle": "Complete Farkle set, hand-painted board and dice.",
+      "brutus": "Brutus diorama, hand-painted columns.",
+      "dobby": "Hand-painted Dobby figure with his sock.",
+      "figuraReencuentro": "Resin figure, the reunion of Hans and Henry.",
+      "emotesTwitch": "Digital illustration, Twitch emote pack.",
+      "lune": "Lune from Expedition33",
+      "bosque": "Oil on slate, a corner of the forest.",
+      "horreoGallego": "Galician hórreo, the traditional granary of Galicia.",
+      "brutusCast": "Brutus, portrayed by Tom McKay",
+      "reencuentro": "The reunion",
+      "dobbyLabel": "Dobby",
+      "tableroFarkle": "Farkle board",
+      "setFarkleSet": "Farkle set",
+      "miniFarkleLabel": "MiniFarkle",
+      "luminosoLabel": "Luminous",
+      "heinrichCapon": "Heinrich Capon",
+      "lukeDaleGaleria": "Luke Dale and the squirrels",
+      "emotesDiscordTwitch": "Emote pack for Discord and Twitch",
+      "reinhartDakuGaleria": "Reinhart and Daku",
+      "dadosArtesanales": "Handcrafted dice",
+      "groschensBohemios": "Bohemian groschen",
+      "cubiletesPiel": "Synthetic leather dice cups",
+      "renoir": "Renoir from Expedition33",
+      "miniFarkle": "Travel-size Mini Farkle, ready for your backpack."
+    },
+    "placeholder1": "📷 Workshop photo — coming soon",
+    "placeholder2": "📷 Preparing an order — coming soon"
+  },
+  "custom": {
+    "eyebrow": "Custom pieces & gifts",
+    "title": "A gift that truly means something",
+    "subtitle": "Engraved initials, your own crest, someone's favourite character, or a scene built around a specific date. If it can be imagined, it can probably be made.",
+    "cards": {
+      "gifts": {
+        "title": "🎁 Gifts with a name on them",
+        "text": "Add initials, a date or a small symbol to any piece in the shop: a Farkle set, a figure or a painting. Perfect for weddings, birthdays, or just because."
+      },
+      "celebrations": {
+        "title": "🎄 Celebrations & special dates",
+        "text": "For Christmas, anniversaries or farewells, I prepare pieces with limited time slots: ornaments, small paintings or themed figures. Book ahead to make sure it arrives on time."
+      },
+      "fullCustom": {
+        "title": "✨ Fully custom commission",
+        "text": "Your own idea from start to finish: a digital portrait of your character, a painting of a special place, or a figure painted from your reference. We talk, sketch and build it together."
+      }
+    },
+    "process": {
+      "eyebrow": "How it works",
+      "title": "From your idea to the finished piece",
+      "step1": {
+        "title": "Tell me about it",
+        "text": "Message me through the contact form or social media, telling me what you have in mind, when you need it and your approximate budget."
+      },
+      "step2": {
+        "title": "Proposal & quote",
+        "text": "I'll prepare a sketch or a customisation proposal, along with the final price and estimated delivery time."
+      },
+      "step3": {
+        "title": "Getting to work",
+        "text": "Once the order is confirmed, I start working on your piece and keep you updated with photos of the process."
+      },
+      "step4": {
+        "title": "Packed with care",
+        "text": "I protect every piece as if it were travelling fragile, because it is, and I ship it with as much care as possible."
+      }
+    },
+    "ctaTitle": "Do you have a date in mind?",
+    "ctaText": "Custom orders need preparation time. Get in touch as soon as you can to secure your piece on time.",
+    "ctaButton": "Tell me your idea"
+  },
+  "collab": {
+    "eyebrow": "Collaborations",
+    "title": "Let's work on something new together",
+    "subtitle": "Besides the shop, I'm open to illustration commissions and collaboration proposals with other brands, creators or projects.",
+    "commissions": {
+      "eyebrow": "Commissions",
+      "title": "Order your own illustration",
+      "p1": "I draw original characters, fan art and digital portraits with a careful, narrative style. I can work from a description, visual references, or your own roleplay or video game character.",
+      "p2": "Every commission includes an initial sketch to validate the pose and composition before moving on to colour, so we make sure the final result is exactly what you were looking for.",
+      "cta": "Coming soon"
+    },
+    "brands": {
+      "eyebrow": "Brands & creators",
+      "title": "Propose a collaboration",
+      "p1": "If you run a brand, a shop, an editorial project or a content channel and think we'd be a good fit, get in touch. I'm especially interested in collaborations related to crafts, medieval fantasy, video games and literature.",
+      "p2": "I can also prepare emote packs or illustrations for streamers and content creators, with revisions included until we nail the style that represents you best.",
+      "cta": "Coming soon"
+    },
+    "workshops": {
+      "eyebrow": "Workshops",
+      "title": "Introductory craft workshops",
+      "text": "I'm open to organising or taking part in in-person or online workshops on miniature painting, digital drawing or woodcraft, whether for individuals, cultural spaces, shops or events. If you're interested, tell me about your idea.",
+      "cta": "Discuss a workshop"
+    },
+    "examples": {
+      "eyebrow": "Work examples",
+      "title": "Some previous commissions",
+      "caption1": "Personalised portrait based on a real scene.",
+      "caption2": "Emote pack for a streaming channel.",
+      "caption3": "Narrative scene for a literary project."
+    }
+  },
+  "inspiration": {
+    "eyebrow": "Inspiration",
+    "title": "The worlds that shape my work",
+    "subtitle": "I have always loved painting and making crafts since I was little, but what I do today has a common origin: Kingdom Come Deliverance",
+    "kcd": {
+      "eyebrow": "Kingdom Come: Deliverance",
+      "title": "The game that laid the foundations for all of this",
+      "p1": "Kingdom Come: Deliverance is, probably, the reason JessyIsCrafting exists the way it does today. The power of a video game as art in itself is very powerful and inspiring.",
+      "quote": "An infinite world of inspiration, with which you can create practically anything.",
+      "p2": "I discovered the landscapes of Bohemia, so green and similar to my homeland that they made me feel at home. Its characters, its art direction and its soundtrack are the perfect complements to bring colour to the work.",
+      "p3": "But I needed more, and like me, hundreds of people did too. I discovered the world of fanfics, and I immediately knew it was for me. Not only reading, but writing my own stories and sharing them with people.",
+      "p4": "The same goes for art. I don't remember ever having such a creative explosion as the one I've had with Kingdom Come Deliverance. I'm not only talking about paintings: I dared to make my first digital drawings and explore channels I had never tried before."
+    },
+    "reading": {
+      "eyebrow": "Reading & writing",
+      "title": "The other half of my brain",
+      "p1": "If I'm not painting, I'm probably reading, or writing. I've always loved filling in the gaps a story leaves untold: what a side character thinks, what happened between two scenes, what was felt in a moment the game barely touches.",
+      "p2": "And since I needed even more, I couldn't help it: I travelled to Bohemia! I needed to feel those virtual settings on my own skin, the ones I spent hours and hours in, enjoying every corner as if I were actually there.",
+      "p3": "I decided to visit every place in both games, and none of them disappointed me. The Bohemian meadow is spectacular and the mountainous landscape of Trosky is one of my favourites. I absolutely recommend making this trip once in a lifetime."
+    },
+    "ctaTitle": "Want to see where all this inspiration ends up?",
+    "ctaText": "In the shop you'll find paintings, figures and drawings that were born, one way or another, from these same worlds.",
+    "ctaButton": "Browse the shop"
+  },
+  "fanfics": {
+    "comingSoon": "Still under construction. You'll be able to read this story here soon.",
+    "title": "Fanfics and Tales",
+    "subtitle": "Stories inspired by the workshop's miniatures and fiction set in medieval worlds. Read them right here or in our Archive of Our Own (AO3) library.",
+    "filterLabel": "Filter",
+    "filters": {
+      "all": "All",
+      "fanfic": "Fanfic",
+      "original": "Original tale",
+      "ongoing": "Ongoing",
+      "finished": "Finished"
+    },
+    "latestLabel": "Latest fanfic updated",
+    "catalogTitle": "Story catalogue",
+    "catalogSubtitle": "Full collection, ready to read here or on AO3.",
+    "showing": "Showing",
+    "storiesCount": "stories",
+    "empty": "There are no stories with this filter yet.",
+    "readWeb": "Read on the web",
+    "viewAO3": "View on AO3 ↗",
+    "subscribe": {
+      "eyebrow": "Newsletter",
+      "title": "Don't miss any update",
+      "text": "Subscribe and we'll let you know when there are new chapters, stories and tales.",
+      "emailLabel": "Email address",
+      "emailPlaceholder": "you@email.com",
+      "submit": "Subscribe",
+      "captchaMissing": "Please tick the verification box before subscribing.",
+      "invalidEmail": "Please enter a valid email address.",
+      "sending": "Sending...",
+      "error": "Could not complete the subscription. Please try again."
+    },
+    "game": "Kingdom Come: Deliverance",
+    "language": "English",
+    "items": {
+      "worth": {
+        "title": "Worth the Wreckage",
+        "summary": "Henry leads a simple life, with the odd job that's better left unquestioned. When he's asked to take Hans into his home, no questions asked, two completely different worlds begin to clash and, slowly, to change each other."
+      },
+      "something": {
+        "title": "Something We Cannot Name",
+        "summary": "What happened to Hans while he was held captive in Malešov, and what went through Henry's mind while he faced his most dangerous missions. The key events of KCD2 told from Hans's point of view, up to what happened in Suchdol."
+      },
+      "road": {
+        "title": "The Road to Constantinople",
+        "summary": "Hans Capon's wedding is drawing near. Before giving in to that fate, he fulfils a promise made to Henry years ago: to travel together all the way to Constantinople. One last journey of love and freedom, marked by the beauty of the world — and its cruelty."
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's talk",
+    "subtitle": "Want to order a piece, propose a collaboration, or just say hi? This is the place.",
+    "formTitle": "Write to me directly",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "subjectPlaceholder": "E.g. Custom order, collaboration...",
+      "message": "Message",
+      "submit": "Send message",
+      "note": "I usually reply within 1-2 days. If your enquiry is urgent and you still haven't received a reply, you can contact me on Instagram."
+    },
+    "channelsTitle": "Other ways to reach me",
+    "channels": {
+      "email": "Email"
+    },
+    "shippingTitle": "Before you write",
+    "shippingText": "I ship to Spain, the European Union and the United Kingdom without any problem. If you live in another country, please contact me first to confirm timelines and shipping costs. You'll find all the details in the frequently asked questions.",
+    "prefillMessage": "Hi, I'd like to order:"
+  },
+  "faq": {
+    "eyebrow": "Frequently asked questions",
+    "title": "Everything you need to know before ordering",
+    "subtitle": "If you have a question that isn't answered here, feel free to reach out through the contact form.",
+    "items": {
+      "shipping": {
+        "q": "Which countries do you ship to?",
+        "a": "I ship as standard to all of Spain, the rest of the European Union and the United Kingdom. If you live anywhere else, message me before placing your order: we'll figure it out together, since customs fees and delivery times can vary quite a bit."
+      },
+      "prepTime": {
+        "q": "How long does it take to prepare my order?",
+        "a": "Pieces that are already finished usually leave my workshop within 2-4 business days. Custom orders, illustration commissions or made-to-order painted figures normally need between 1 and 3 weeks, depending on how complex the order is and my waiting list at that moment. Around Christmas, I'd recommend booking well in advance."
+      },
+      "returns": {
+        "q": "Can I return or exchange an order?",
+        "a": "Non-personalised catalogue pieces can be returned within 14 calendar days of receipt, as long as they arrive in perfect, unused condition. Personalised pieces, made-to-order commissions and illustration commissions cannot be returned, except in the case of a manufacturing fault or transport damage."
+      },
+      "packaging": {
+        "q": "How do the pieces travel?",
+        "a": "With a lot of care. Figures and paintings are protected with padded materials, and whenever possible I reuse or reduce plastic. If your piece is fragile, it's clearly marked on the parcel for whoever receives it on your behalf."
+      },
+      "commission": {
+        "q": "How do I order an illustration commission?",
+        "a": "I normally don't accept illustration commissions, but if you like my style and would like me to make one for you, don't hesitate to get in touch through the contact form. I study the idea, create the sketch, and we close the commission."
+      },
+      "payment": {
+        "q": "How is a commission paid for?",
+        "a": "Once the quote is agreed, I'll send you the payment details through whichever channel we're using for the order (bank transfer or the platform we're working on). For larger pieces or commissions, I usually ask for a deposit when the order is confirmed and the rest before shipping."
+      }
+    },
+    "ctaTitle": "Still have questions?",
+    "ctaText": "Get in touch and I'll be happy to help.",
+    "ctaButton": "Go to contact"
+  },
+  "notFound": {
+    "eyebrow": "Error 404",
+    "title": "This path gets lost in the forest",
+    "text": "The page you're looking for doesn't exist or has moved. Let's get you back on the main path.",
+    "cta": "Back to home"
+  },
+  "footer": {
+    "tagline": "Crafts, painting and illustration made by hand, with care, from Spain.",
+    "exploreTitle": "Explore",
+    "gallery": "Gallery",
+    "serviceTitle": "Commissions",
+    "contactTitle": "Contact",
+    "location": "Handmade in Spain",
+    "rights": "All rights reserved.",
+    "madeWith": "Made with 🌿 and a lot of care.",
+    "contactFormLink": "Contact form"
+  },
+  "brand": {
+    "name": "JessyIsCrafting — go to homepage"
+  },
+  "common": {
+    "from": "From",
+    "customizable": "Customisable",
+    "viewProduct": "View product"
+  },
+  "categories": {
+    "artesanias": {
+      "name": "Crafts",
+      "description": "Hand-carved and hand-painted wooden pieces, made to play with and to give."
+    },
+    "dibujos": {
+      "name": "Digital drawing",
+      "description": "Digital illustrations, portraits and narrative scenes with a painterly touch."
+    },
+    "cuadros": {
+      "name": "Paintings",
+      "description": "Oil paintings on canvas, inspired by landscapes and fantasy worlds."
+    },
+    "figuras": {
+      "name": "Figures",
+      "description": "Miniatures and 3D figures painted with a fine brush, with a collector's finish."
+    }
+  },
+  "products": {
+    "set-farkle-blason": {
+      "finishes": { "caoba": "Mahogany", "roble": "Rustic Oak" },
+      "addons": { "cubilete-extra": { "name": "Extra artisan cup", "description": "Hand-stitched synthetic leather" }, "dados-extra": { "name": "Set of 12 additional dice", "description": "" }, "groschens-madera": { "name": "50 wooden groschen", "description": "" } },
+      "name": "Farkle Board",
+      "short": "Farkle board in a wooden box, hand-painted with your favourite crests.",
+      "description": "Farkle board in 20 cm x 20 cm box format, hand-painted and decorated with your favourite crests or motifs. Every detail, from the wood stain to the brushstrokes of the crest, is finished piece by piece.",
+      "customization": "You can choose the wood colours, the crests you want on each side up to 4 (two on the outside and two on the inside), or a custom motif such as letters or drawings."
+    },
+    "set-farkle": {
+      "finishes": { "caoba": "Mahogany", "roble": "Rustic Oak" },
+      "addons": { "cubilete-extra": { "name": "Extra artisan cup", "description": "Hand-stitched synthetic leather" }, "dados-extra": { "name": "Set of 12 additional dice", "description": "" }, "groschens-madera": { "name": "50 wooden groschen", "description": "" } },
+      "name": "Complete Farkle Set",
+      "short": "Farkle board in a wooden box, hand-painted with your favourite crests.",
+      "description": "A Farkle board in 20 cm x 20 cm box format, hand-painted and decorated with your favourite crests or motifs. A set of 12 hand-engraved wooden dice and 4 special dice you can choose. Devil head, Hugo's Tooth... pick 4!\nTwo hand-stitched synthetic leather dice cups are included, so every roll comes out perfect.\nAnd to complete the set, 50 wooden groschen, hand-painted one by one, to make the game even more fun.",
+      "customization": "You can choose the wood colours, the crests you want on each side up to 4 (two on the outside and two on the inside), or a custom motif such as letters or drawings."
+    },
+    "mini-farkle-viajero": {
+      "finishes": { "caoba": "Mahogany", "roble": "Rustic Oak" },
+      "addons": { "cubilete-extra": { "name": "Extra artisan cup", "description": "Hand-stitched synthetic leather" }, "micro-dados": { "name": "Set of 6 additional micro-dice", "description": "Rectangular edge, 1 cm x 1 cm" }, "groschens-madera": { "name": "50 wooden groschen", "description": "" } },
+      "name": "Travel Mini Farkle",
+      "short": "A compact version of the Farkle set, ready to slip into a backpack or bag.",
+      "description": "The same love for detail, in a small format made for travelling. Perfect for trips, camping, or simply having an impromptu game always within reach.\n- Board of 12 cm x 12 cm.\n- Includes 12 regular dice and 4 special ones, all hand-engraved. I always include 4 “devil heads”, but you can request another design.",
+      "customization": "You can choose the wood colours, the crests you want on each side up to 4 (two on the outside and two on the inside), or a custom motif such as letters or drawings."
+    },
+    "set-dados-artesanales": {
+      "name": "Handcrafted Dice Set",
+      "short": "Carved and hand-painted dice with an artisan aesthetic",
+      "description": "Customisable.",
+      "customization": "You can choose 4 specially designed dice. Tell me your idea or colours. You can choose up to 2 dice with rounded edges."
+    },
+    "groschens-madera-50": {
+      "name": "Wooden Groschen",
+      "short": "50 wooden groschen, painted one by one",
+      "description": "50 wooden coins that emulate the design of Bohemian groschen. Painted and varnished one by one, kept in a raffia bag."
+    },
+    "cubilete-artesanal": {
+      "name": "Artisan Dice Cup",
+      "short": "Synthetic leather dice cups, hand-cut and hand-stitched",
+      "description": "Synthetic leather dice cup, 10 cm tall, ideal for rolling dice. Hand-stitched with an elegant X pattern. Price per unit.",
+      "addons": { "dados-6": { "name": "Set of dice", "description": "" }, "groschens-madera": { "name": "50 wooden groschen", "description": "" } }
+    },
+    "figura-reencuentro": {
+      "name": "The Reunion",
+      "short": "Hans and Henry's embrace at their reunion",
+      "description": "Resin figure, 16 cm tall, with base included. A depiction of the embrace between Hans and Henry during the rescue in Malešov. Their expressions of relief are genuinely tender.",
+      "customization": "You can choose the colour of Henry's or Hans's gambeson and trousers, but not the shape of the figure."
+    },
+    "figura-dobby": {
+      "name": "Dobby, from Harry Potter",
+      "short": "Dobby figure with his sock",
+      "description": "Resin figure of the elf Dobby, 18 cm tall. Natural colours and matte finish, with highlights in the eyes and the spark of magic."
+    },
+    "oleo-minas-tirith": {
+      "name": "\"The Citadel\" Oil Painting",
+      "short": "An oil-painted interpretation of a great stone citadel among mountains, inspired by medieval fantasy.",
+      "description": "A hand-painted homage to the fantasy landscapes that move me most: a white citadel carved into the rock, under a stormy sky. Oil on canvas, with layered glazes to bring depth to the stone and the mountain.",
+      "customization": "Can be commissioned in other canvas sizes and, if you prefer, with an adapted colour palette or a different landscape."
+    },
+    "oleo-rincon-bosque": {
+      "name": "\"Forest Corner\" Oil Painting",
+      "short": "A stream tucked away among the trees, oil-painted with plenty of natural light.",
+      "description": "Painted from one of those forest corners that look straight out of a storybook: water running over stones, light filtering through the leaves and every shade of green. A piece made to bring a little nature to any wall.",
+      "customization": "Available in several canvas sizes; I can also paint your own reference landscape on request."
+    },
+    "retrato-digital-personalizado": {
+      "name": "Custom digital portrait",
+      "short": "A digital illustration based on your own scene, with a warm style and a touch of humour if you like.",
+      "description": "Tell me who or what you'd like portrayed — you, your pet, your roleplay character — and I'll turn it into a digital illustration with a semi-realistic or comic-style finish, whichever you're after. This piece, squirrels included, was one of my favourite commissions.",
+      "customization": "Fully customisable: number of characters, background, style (realistic, comic, chibi) and delivery format (digital file or print)."
+    },
+    "pack-emotes-personalizados": {
+      "name": "Custom emote pack",
+      "short": "A set of 3 illustrated emotes, perfect for Discord, Twitch or your favourite chat.",
+      "description": "A pack of three emotes with a fun, expressive style, made to bring any chat or streaming channel to life. Delivered in high resolution with a transparent background, ready to upload to your platform.",
+      "customization": "You can choose the expressions, the colours and, if you like, base them on your own character or avatar."
+    },
+    "escena-heinrich": {
+      "name": "\"Heinrich's Room\" scene",
+      "short": "A narrative digital illustration of a medieval interior by the fire.",
+      "description": "A scene meant to tell more than just an image: a boy sitting by the fireplace, in a room full of heraldic details and warmth. Digital illustration with a painterly finish, made for anyone who enjoys stories with depth.",
+      "customization": "I can adapt the scene to your own character, change the point of view, or build a brand new composition on request."
+    },
+    "jinete-de-la-niebla": {
+      "name": "\"The Rider in the Mist\"",
+      "short": "A digital illustration of a mounted knight, lost in the mist of a pine forest.",
+      "description": "One of my most atmospheric illustrations: a rider moving through pines and mist, with that cold light I love to paint. A small homage to the aesthetic that inspires me most in medieval fantasy.",
+      "customization": "Available as a print in different sizes; the original scene is one of a kind, but I can create a similar composition with your own character."
+    },
+    "hijos-del-caos": {
+      "name": "\"Children of Chaos\"",
+      "short": "A narrative digital illustration of two dark-fantasy characters, an example of a character illustration commission.",
+      "description": "A commission focused on the relationship between two original characters, with an autumnal palette and a carefully built composition. An example of the kind of narrative scenes I can prepare for your own characters or stories.",
+      "customization": "Available as a commission with your own characters, colour palette and level of detail to choose from."
+    },
+    "luminoso": {
+      "name": "\"Luminous\"",
+      "short": "A semi-realistic digital illustration of a suit of armour and a white horse, a one-of-a-kind piece.",
+      "description": "A piece made to explore light: the white of the horse, the cold gleam of the armour and a blurred forest background. One of my most personal illustrations, with no commission behind it."
+    },
+    "miniatura-caballero-henry": {
+      "name": "Sir Henry",
+      "sizes": { "10cm": "10 cm (miniature)", "15cm": "15 cm (standard)", "18cm": "18 cm (large)" },
+      "short": "Figure of Henry as a knight, hand-painted with nature details.",
+      "description": "Figure of Henry as a knight, hand-painted with nature details.",
+      "customization": "I can paint it in the colours you like. If you prefer the brigandine and gambeson in another colour, let me know in the customization box."
+    },
+    "diorama-jinete-heraldico": {
+      "name": "Henry on Horseback",
+      "short": "Henry mounted on horseback with shield and sword, 23 cm tall.",
+      "description": "A piece inspired by the Collector's Edition, showing Henry on a horse. This time I chose to paint it in the colours of Pebbles, my beloved horse from the game. The harness is in Leipa's colours, as is the shield, and Henry brandishes Sir Radzig's sword. With nature details, it is a balanced 23 cm piece, large and perfect for decorating your home.",
+      "customization": "I can paint it in the colours you like: the colour of the horse and the harness, as well as Henry's shield and gambeson. Let me know in the customization box."
+    },
+    "figura-lune": {
+      "name": "\"Lune\" Figure",
+      "short": "Lune figure from Expedition 33 with her elemental effects.",
+      "description": "Detailed figure of Lune from the video game Expedition 33. Surrounded by her elemental effects, this is a complex but very beautiful piece. 21 cm tall.",
+      "customization": "Painting service for your own figure (resin or based miniature) with the effects and colours you prefer."
+    },
+    "figura-renoir": {
+      "name": "\"Renoir\" Figure",
+      "short": "Renoir figure from Expedition 33, with its paint-stained suit and matte finish.",
+      "description": "Renoir figure from the video game Expedition 33 in his classic black suit stained with paint, on fallen petals. 19 cm figure."
+    },
+    "diorama-brutus": {
+      "name": "\"Brutus\", from Julius Caesar",
+      "short": "A small hand-painted architectural diorama, with columns and gold details.",
+      "description": "A piece I designed from Tom McKay's interpretation of the role in \"Julius Caesar\" at Shakespeare's Globe Theatre in London. The base on which the character of Brutus stands is directly inspired by the stage of this theatre.",
+      "finishLabel": "Finish",
+      "finishes": { "brillo": "Gloss", "mate": "Matte" },
+      "customization": "The colours of this piece cannot be chosen, only the finish."
+    }
+  }
+}

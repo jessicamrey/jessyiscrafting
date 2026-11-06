@@ -1,0 +1,207 @@
+[
+  {
+    "id": "caballero",
+    "images": [
+      "assets/img/figuras/caballero-henry-1.jpg",
+      "assets/img/figuras/caballero-henry-2.jpg",
+      "assets/img/figuras/caballero-henry-3.jpg"
+    ]
+  },
+  {
+    "id": "minas-tirith",
+    "images": [
+      "assets/img/cuadros/minas-tirith-1.jpg",
+      "assets/img/cuadros/minas-tirith-2.jpg",
+      "assets/img/cuadros/minas-tirith-3.jpg",
+      "assets/img/cuadros/minas-tirith-4.jpg"
+    ]
+  },
+  {
+    "id": "set-farkle-blason",
+    "images": [
+      "assets/img/artesanias/farkle-set-1.jpg",
+      "assets/img/artesanias/farkle-set-2.jpg",
+      "assets/img/artesanias/farkle-set-3.jpg",
+      "assets/img/artesanias/farkle-set-4.jpg",
+      "assets/img/artesanias/farkle-set-5.jpg",
+      "assets/img/artesanias/farkle-extra-1.jpg",
+      "assets/img/artesanias/farkle-extra-2.jpg",
+      "assets/img/artesanias/farkle-extra-3.jpg",
+      "assets/img/artesanias/farkle-extra-4.jpg",
+      "assets/img/artesanias/farkle-extra-5.jpg",
+      "assets/img/artesanias/farkle-extra-6.jpg",
+      "assets/img/artesanias/farkle-extra-7.jpg"
+    ]
+  },
+  {
+    "id": "set-farkle",
+    "images": [
+      "assets/img/artesanias/farkle-set-6.jpg",
+      "assets/img/artesanias/farkle-set-2.jpg",
+      "assets/img/artesanias/farkle-set-3.jpg",
+      "assets/img/artesanias/farkle-set-4.jpg",
+      "assets/img/artesanias/farkle-set-5.jpg",
+      "assets/img/artesanias/farkle-extra-1.jpg",
+      "assets/img/artesanias/farkle-extra-2.jpg",
+      "assets/img/artesanias/farkle-extra-3.jpg",
+      "assets/img/artesanias/farkle-extra-4.jpg",
+      "assets/img/artesanias/farkle-extra-5.jpg",
+      "assets/img/artesanias/farkle-extra-6.jpg",
+      "assets/img/artesanias/farkle-extra-7.jpg",
+      "assets/img/artesanias/farkle-extra-8.jpg",
+      "assets/img/artesanias/farkle-extra-9.jpg",
+      "assets/img/artesanias/farkle-extra-10.jpg",
+      "assets/img/artesanias/farkle-extra-11.jpg"
+    ]
+  },
+  {
+    "id": "mini-farkle-viajero",
+    "images": [
+      "assets/img/artesanias/mini-farkle-1.jpg"
+    ]
+  },
+  {
+    "id": "set-dados-artesanales",
+    "images": [
+      "assets/img/artesanias/farkle-dados-1.jpg",
+      "assets/img/artesanias/farkle-dados-2.jpg",
+      "assets/img/artesanias/farkle-dados-3.jpg"
+    ]
+  },
+  {
+    "id": "groschens-madera-50",
+    "images": [
+      "assets/img/artesanias/farkle-groschens-1.jpg",
+      "assets/img/artesanias/farkle-groschens-2.jpg",
+      "assets/img/artesanias/farkle-groschens-3.jpg",
+      "assets/img/artesanias/farkle-groschens-4.jpg"
+    ]
+  },
+  {
+    "id": "cubilete-artesanal",
+    "images": [
+      "assets/img/artesanias/cubilete-artesanal-1.jpg",
+      "assets/img/artesanias/cubilete-artesanal-2.jpg"
+    ]
+  },
+  {
+    "id": "abanicos-artesanales",
+    "images": [
+      "assets/img/artesanias/abanicos-1.jpg",
+      "assets/img/artesanias/abanicos-2.jpg",
+      "assets/img/artesanias/abanicos-3.jpg",
+      "assets/img/artesanias/abanicos-4.jpg",
+      "assets/img/artesanias/abanicos-5.jpg"
+    ]
+  },
+  {
+    "id": "luminoso",
+    "images": [
+      "assets/img/dibujos/luminoso-1.jpg"
+    ]
+  },
+  {
+    "id": "jinete",
+    "images": [
+      "assets/img/figuras/jinete-heraldico-1.jpg",
+      "assets/img/figuras/jinete-heraldico-2.jpg",
+      "assets/img/figuras/jinete-heraldico-3.jpg",
+      "assets/img/figuras/jinete-heraldico-4.jpg",
+      "assets/img/figuras/jinete-heraldico-5.jpg"
+    ]
+  },
+  {
+    "id": "heinrich",
+    "images": [
+      "assets/img/dibujos/escena-heinrich-1.jpg"
+    ]
+  },
+  {
+    "id": "henry-explorando",
+    "images": [
+      "assets/img/dibujos/henry-explorando-1.jpg"
+    ]
+  },
+  {
+    "id": "luke-dale-ardillas",
+    "images": [
+      "assets/img/dibujos/luke-dale-ardillas-1.jpg"
+    ]
+  },
+  {
+    "id": "emotes-twitch",
+    "compact": true,
+    "images": [
+      "assets/img/dibujos/emotes-twitch-1.jpg",
+      "assets/img/dibujos/emotes-twitch-2.jpg",
+      "assets/img/dibujos/emotes-twitch-3.jpg"
+    ]
+  },
+  {
+    "id": "reinhart-daku",
+    "images": [
+      "assets/img/dibujos/reinhart-daku-1.jpg"
+    ]
+  },
+  {
+    "id": "lune",
+    "images": [
+      "assets/img/figuras/lune-1.jpg",
+      "assets/img/figuras/lune-2.jpg",
+      "assets/img/figuras/lune-3.jpg",
+      "assets/img/figuras/lune-4.jpg"
+    ]
+  },
+  {
+    "id": "bosque",
+    "images": [
+      "assets/img/cuadros/rincon-del-bosque-1.jpg"
+    ]
+  },
+  {
+    "id": "horreo-gallego",
+    "images": [
+      "assets/img/cuadros/horreo-gallego-1.jpg"
+    ]
+  },
+  {
+    "id": "renoir",
+    "images": [
+      "assets/img/figuras/renoir-1.jpg",
+      "assets/img/figuras/renoir-2.jpg",
+      "assets/img/figuras/renoir-3.jpg",
+      "assets/img/figuras/renoir-4.jpg",
+      "assets/img/figuras/renoir-5.jpg"
+    ]
+  },
+  {
+    "id": "diorama-brutus",
+    "images": [
+      "assets/img/figuras/brutus-2.jpg",
+      "assets/img/figuras/brutus-1.jpg",
+      "assets/img/figuras/brutus-3.jpg",
+      "assets/img/figuras/brutus-4.jpg",
+      "assets/img/figuras/brutus-5.jpg"
+    ]
+  },
+  {
+    "id": "figura-dobby",
+    "images": [
+      "assets/img/figuras/dobby-1.jpg",
+      "assets/img/figuras/dobby-2.jpg",
+      "assets/img/figuras/dobby-3.jpg",
+      "assets/img/figuras/dobby-4.jpg",
+      "assets/img/figuras/dobby-5.jpg"
+    ]
+  },
+  {
+    "id": "figura-reencuentro",
+    "images": [
+      "assets/img/figuras/reencuentro-1.jpg",
+      "assets/img/figuras/reencuentro-2.jpg",
+      "assets/img/figuras/reencuentro-3.jpg",
+      "assets/img/figuras/reencuentro-4.jpg",
+      "assets/img/figuras/reencuentro-5.jpg"
+    ]
+  }
+]

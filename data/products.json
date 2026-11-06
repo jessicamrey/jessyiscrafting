@@ -1,0 +1,278 @@
+[
+  {
+    "id": "set-farkle-blason",
+    "category": "artesanias",
+    "availability": "in_stock",
+    "price": 49.95,
+    "priceFrom": false,
+    "customizable": true,
+    "featured": true,
+    "images": [
+      "assets/img/artesanias/farkle-set-1",
+      "assets/img/artesanias/farkle-set-2",
+      "assets/img/artesanias/farkle-set-3",
+      "assets/img/artesanias/farkle-set-4",
+      "assets/img/artesanias/farkle-set-5",
+      "assets/img/artesanias/farkle-extra-1",
+      "assets/img/artesanias/farkle-extra-2",
+      "assets/img/artesanias/farkle-extra-3",
+      "assets/img/artesanias/farkle-extra-4",
+      "assets/img/artesanias/farkle-extra-5",
+      "assets/img/artesanias/farkle-extra-6",
+      "assets/img/artesanias/farkle-extra-7"
+    ],
+    "addons": [
+      { "id": "cubilete-extra", "price": 5.95 },
+      { "id": "dados-extra", "price": 5.95 },
+      { "id": "groschens-madera", "price": 14.95 }
+    ],
+    "customOptions": {
+      "finishes": [
+        { "id": "caoba", "color": "#5a2a1a" },
+        { "id": "roble", "color": "#9a6234" }
+      ],
+      "notes": { "maxLength": 1000 }
+    }
+  },
+  {
+    "id": "set-farkle",
+    "category": "artesanias",
+    "availability": "in_stock",
+    "price": 79.95,
+    "priceFrom": false,
+    "customizable": true,
+    "featured": true,
+    "images": [
+      "assets/img/artesanias/farkle-set-6",
+      "assets/img/artesanias/farkle-set-2",
+      "assets/img/artesanias/farkle-set-3",
+      "assets/img/artesanias/farkle-set-4",
+      "assets/img/artesanias/farkle-set-5",
+      "assets/img/artesanias/farkle-extra-1",
+      "assets/img/artesanias/farkle-extra-2",
+      "assets/img/artesanias/farkle-extra-3",
+      "assets/img/artesanias/farkle-extra-4",
+      "assets/img/artesanias/farkle-extra-5",
+      "assets/img/artesanias/farkle-extra-6",
+      "assets/img/artesanias/farkle-extra-7",
+      "assets/img/artesanias/farkle-extra-8",
+      "assets/img/artesanias/farkle-extra-9",
+      "assets/img/artesanias/farkle-extra-10",
+      "assets/img/artesanias/farkle-extra-11"
+    ],
+    "addons": [
+      { "id": "cubilete-extra", "price": 5.95 },
+      { "id": "dados-extra", "price": 5.95 },
+      { "id": "groschens-madera", "price": 14.95 }
+    ],
+    "customOptions": {
+      "finishes": [
+        { "id": "caoba", "color": "#5a2a1a" },
+        { "id": "roble", "color": "#9a6234" }
+      ],
+      "notes": { "maxLength": 1000 }
+    }
+  },
+  {
+    "id": "mini-farkle-viajero",
+    "category": "artesanias",
+    "availability": "in_stock",
+    "price": 29.95,
+    "priceFrom": false,
+    "customizable": true,
+    "featured": false,
+    "images": [
+      "assets/img/artesanias/mini-farkle-1"
+    ],
+    "addons": [
+      { "id": "cubilete-extra", "price": 5.95 },
+      { "id": "micro-dados", "price": 3 },
+      { "id": "groschens-madera", "price": 14.95 }
+    ],
+    "customOptions": {
+      "finishes": [
+        { "id": "caoba", "color": "#5a2a1a" },
+        { "id": "roble", "color": "#9a6234" }
+      ],
+      "notes": { "maxLength": 1000 }
+    }
+  },
+  {
+    "id": "set-dados-artesanales",
+    "category": "artesanias",
+    "availability": "in_stock",
+    "price": 6.95,
+    "priceFrom": false,
+    "customizable": true,
+    "featured": false,
+    "images": [
+      "assets/img/artesanias/farkle-dados-1",
+      "assets/img/artesanias/farkle-dados-2",
+      "assets/img/artesanias/farkle-dados-3"
+    ],
+    "customOptions": {
+      "notes": { "maxLength": 1000 }
+    }
+  },
+  {
+    "id": "groschens-madera-50",
+    "category": "artesanias",
+    "availability": "in_stock",
+    "price": 14.95,
+    "priceFrom": false,
+    "customizable": false,
+    "featured": false,
+    "images": [
+      "assets/img/artesanias/farkle-groschens-1",
+      "assets/img/artesanias/farkle-groschens-2",
+      "assets/img/artesanias/farkle-groschens-3",
+      "assets/img/artesanias/farkle-groschens-4"
+    ]
+  },
+  {
+    "id": "cubilete-artesanal",
+    "category": "artesanias",
+    "availability": "in_stock",
+    "price": 5.95,
+    "priceFrom": false,
+    "customizable": false,
+    "featured": false,
+    "images": [
+      "assets/img/artesanias/cubilete-artesanal-1",
+      "assets/img/artesanias/cubilete-artesanal-2"
+    ],
+    "addons": [
+      { "id": "dados-6", "price": 6.95 },
+      { "id": "groschens-madera", "price": 14.95 }
+    ]
+  },
+  {
+    "id": "figura-dobby",
+    "category": "figuras",
+    "availability": "in_stock",
+    "price": 60,
+    "priceFrom": false,
+    "customizable": false,
+    "featured": false,
+    "images": [
+      "assets/img/figuras/dobby-1",
+      "assets/img/figuras/dobby-2",
+      "assets/img/figuras/dobby-3",
+      "assets/img/figuras/dobby-4",
+      "assets/img/figuras/dobby-5"
+    ]
+  },
+  {
+    "id": "figura-reencuentro",
+    "category": "figuras",
+    "availability": "in_stock",
+    "price": 45,
+    "priceFrom": false,
+    "customizable": true,
+    "featured": false,
+    "images": [
+      "assets/img/figuras/reencuentro-1",
+      "assets/img/figuras/reencuentro-2",
+      "assets/img/figuras/reencuentro-3",
+      "assets/img/figuras/reencuentro-4",
+      "assets/img/figuras/reencuentro-5"
+    ],
+    "customOptions": {
+      "notes": { "maxLength": 1000 }
+    }
+  },
+  {
+    "id": "miniatura-caballero-henry",
+    "category": "figuras",
+    "availability": "in_stock",
+    "price": 29.95,
+    "priceFrom": true,
+    "customizable": true,
+    "featured": true,
+    "images": [
+      "assets/img/figuras/caballero-henry-1",
+      "assets/img/figuras/caballero-henry-2",
+      "assets/img/figuras/caballero-henry-3"
+    ],
+    "sizes": [
+      { "id": "10cm", "price": 29.95 },
+      { "id": "15cm", "price": 39.95, "default": true },
+      { "id": "18cm", "price": 49.95 }
+    ],
+    "customOptions": {
+      "notes": { "maxLength": 1000 }
+    }
+  },
+  {
+    "id": "diorama-jinete-heraldico",
+    "category": "figuras",
+    "availability": "in_stock",
+    "price": 150,
+    "priceFrom": false,
+    "customizable": true,
+    "featured": true,
+    "images": [
+      "assets/img/figuras/jinete-heraldico-1",
+      "assets/img/figuras/jinete-heraldico-2",
+      "assets/img/figuras/jinete-heraldico-3",
+      "assets/img/figuras/jinete-heraldico-4",
+      "assets/img/figuras/jinete-heraldico-5"
+    ],
+    "customOptions": {
+      "notes": { "maxLength": 1000 }
+    }
+  },
+  {
+    "id": "figura-lune",
+    "category": "figuras",
+    "availability": "in_stock",
+    "price": 150,
+    "priceFrom": false,
+    "customizable": false,
+    "featured": false,
+    "images": [
+      "assets/img/figuras/lune-1",
+      "assets/img/figuras/lune-2",
+      "assets/img/figuras/lune-3",
+      "assets/img/figuras/lune-4"
+    ]
+  },
+  {
+    "id": "figura-renoir",
+    "category": "figuras",
+    "availability": "in_stock",
+    "price": 70,
+    "priceFrom": false,
+    "customizable": false,
+    "featured": false,
+    "images": [
+      "assets/img/figuras/renoir-1",
+      "assets/img/figuras/renoir-2",
+      "assets/img/figuras/renoir-3",
+      "assets/img/figuras/renoir-4",
+      "assets/img/figuras/renoir-5"
+    ]
+  },
+  {
+    "id": "diorama-brutus",
+    "category": "figuras",
+    "availability": "in_stock",
+    "price": 70,
+    "priceFrom": false,
+    "customizable": true,
+    "featured": true,
+    "images": [
+      "assets/img/figuras/brutus-2",
+      "assets/img/figuras/brutus-1",
+      "assets/img/figuras/brutus-3",
+      "assets/img/figuras/brutus-4",
+      "assets/img/figuras/brutus-5"
+    ],
+    "customOptions": {
+      "finishes": [
+        { "id": "brillo", "color": "#e9e4d8" },
+        { "id": "mate", "color": "#8c8680" }
+      ]
+    }
+  }
+]

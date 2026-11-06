@@ -1,0 +1,62 @@
+<header class="site-header">
+  <div class="container site-header__bar">
+    <a href="{{BASE}}index.html" class="brand" data-i18n-attr="aria-label:brand.name">
+      <svg class="brand__mark" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M24 4C24 4 10 12 10 24C10 34 16 42 24 44C32 42 38 34 38 24C38 12 24 4 24 4Z" fill="#4f6b45"/>
+        <path d="M24 10C24 10 15 16 15 24C15 31 19 37 24 39C29 37 33 31 33 24C33 16 24 10 24 10Z" fill="#f1ebdd"/>
+        <path d="M24 14V34" stroke="#4f6b45" stroke-width="1.5"/>
+        <path d="M24 18L19 22M24 22L29 26M24 26L19 30" stroke="#4f6b45" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+      <span>JessyIsCrafting</span>
+    </a>
+
+    <nav class="nav-drawer" id="navDrawer" aria-label="Navegación principal">
+      <ul class="main-nav">
+        <li><a href="{{BASE}}index.html" data-i18n="nav.home">Inicio</a></li>
+        <li><a href="{{BASE}}tienda.html" data-i18n="nav.store">Tienda</a></li>
+        <li><a href="{{BASE}}galeria.html" data-i18n="nav.gallery">Galería</a></li>
+        <li><a href="{{BASE}}fanfics.html" data-i18n="nav.fanfics">Fanfics</a></li>
+        <li><a href="{{BASE}}inspiracion.html" data-i18n="nav.inspiration">Inspiración</a></li>
+        <li><a href="{{BASE}}contacto.html" data-i18n="nav.contact">Contacto</a></li>
+        <li><a href="{{BASE}}faq.html" data-i18n="nav.faq">Preguntas</a></li>
+      </ul>
+      <span class="lang-picker">
+        <svg class="lang-picker__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9.5"/><ellipse cx="12" cy="12" rx="4" ry="9.5"/><path d="M2.5 12h19M4 7h16M4 17h16"/></svg>
+        <label class="visually-hidden" for="langSelect" data-i18n="nav.langLabel">Idioma</label>
+        <select class="lang-select" id="langSelect" aria-label="Seleccionar idioma">
+          <option value="es">ES</option>
+          <option value="en">EN</option>
+          <option value="de">DE</option>
+        </select>
+      </span>
+    </nav>
+
+    <div class="header-actions">
+      <div class="site-search" id="siteSearch" role="search">
+        <input type="search" class="site-search__input" id="siteSearchInput" autocomplete="off" spellcheck="false" role="combobox" aria-expanded="false" aria-controls="siteSearchResults" aria-autocomplete="list" data-i18n-attr="placeholder:search.placeholder;aria-label:search.label" placeholder="Buscar..." aria-label="Buscar en el sitio">
+        <ul class="site-search__results" id="siteSearchResults" role="listbox" hidden></ul>
+      </div>
+      <button type="button" class="cart-toggle" id="cartToggle" aria-haspopup="dialog" aria-expanded="false" aria-controls="cartDrawer" data-i18n-attr="aria-label:cart.openCart" aria-label="Abrir carrito">
+        🛒<span class="cart-toggle__count" id="cartCount" hidden>0</span>
+      </button>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navDrawer" aria-label="Abrir menú">
+        <span class="nav-toggle__bar"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="cart-drawer" id="cartDrawer" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Carrito">
+  <div class="cart-drawer__backdrop" id="cartBackdrop"></div>
+  <div class="cart-drawer__panel">
+    <div class="cart-drawer__header">
+      <h2 data-i18n="cart.title">Tu carrito</h2>
+      <button type="button" class="cart-drawer__close" id="cartClose" aria-label="Cerrar carrito">&times;</button>
+    </div>
+    <div class="cart-drawer__items" id="cartItems"></div>
+    <p class="cart-drawer__empty" id="cartEmpty" data-i18n="cart.empty">Tu carrito está vacío.</p>
+    <div class="cart-drawer__footer">
+      <a href="{{BASE}}contacto.html?carrito=1" class="btn btn--gold btn--block" id="cartCheckout" hidden data-i18n="cart.checkout">Solicitar presupuesto</a>
+    </div>
+  </div>
+</div>

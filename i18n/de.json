@@ -1,0 +1,583 @@
+{
+  "home": {
+    "hero": {
+      "eyebrow": "Handgemacht · Mit Liebe gefertigt",
+      "title": "Handwerkskunst mit der Seele des Waldes",
+      "tagline": "„Jedes Stück wächst langsam, wie ein Baum.“",
+      "subtitle": "Geschnitzte Farkle-Sets, Ölgemälde, digitale Illustrationen und handbemalte Figuren. Einzigartige Stücke, inspiriert von der Natur und den mittelalterlichen Welten, die ich am meisten liebe, eines nach dem anderen in Spanien geschaffen.",
+      "ctaStore": "Zum Shop"
+    },
+    "quicklinks": {
+      "store": {
+        "title": "Shop",
+        "text": "Handwerk, Gemälde, Zeichnungen und Figuren, bereit zur Bestellung."
+      },
+      "collab": {
+        "title": "Kooperationen",
+        "text": "Auftragsarbeiten, gemeinsame Projekte und professionelle Aufträge."
+      },
+      "inspiration": {
+        "title": "Inspiration",
+        "text": "Videospiele, Lesen und die Welten, die meine Arbeit prägen."
+      }
+    },
+    "galleryTeaser": {
+      "eyebrow": "Ein Blick in die Werkstatt",
+      "title": "Ein Spaziergang durch die Galerie",
+      "text": "Fertige Stücke, einzigartige Objekte, die nicht zum Verkauf stehen, und digitale Zeichnungen aller Art.",
+      "cta": "Zur ganzen Galerie"
+    },
+    "featured": {
+      "eyebrow": "Ausgewählte Stücke",
+      "title": "Ein paar meiner Lieblingsstücke",
+      "subtitle": "Ein kleiner Einblick in das, was dich im Shop erwartet: Holz, Harz, Farbe und sehr viel Geduld.",
+      "cta": "Den ganzen Shop ansehen"
+    },
+    "story": {
+      "photoCaption": "Foto von Jessy in ihrer Werkstatt (demnächst)",
+      "eyebrow": "Hinter jedem Stück",
+      "title": "Langsam gemacht, mit Liebe gemacht",
+      "text1": "Ich bin Jessy, und hinter JessyIsCrafting stecken Stunden des Schleifens, feine Pinsel und viele Tassen Tee. Jedes Stück wird durchdacht, skizziert und überarbeitet, bis ich das Gefühl habe, dass es meinen Arbeitstisch wirklich verdient hat.",
+      "text2": "Ich strebe keine Massenproduktion an: Ich möchte, dass du beim Öffnen der Box spürst, dass jemand wirklich Liebe in das gesteckt hat, was du in den Händen hältst."
+    },
+    "cta": {
+      "eyebrow": "Hast du eine Idee im Kopf?",
+      "title": "Lass uns über deinen besonderen Auftrag sprechen",
+      "text": "Personalisierte Geschenke, Stücke für besondere Anlässe, Illustrationsaufträge oder Kooperationsprojekte: Erzähl mir von deiner Idee, und wir machen daraus etwas Einzigartiges.",
+      "ctaCustom": "Individuelles & Geschenke",
+      "ctaContact": "Kontakt aufnehmen"
+    }
+  },
+  "store": {
+    "eyebrow": "Shop",
+    "title": "Jede Kategorie erzählt dieselbe Geschichte auf ihre eigene Art",
+    "subtitle": "Holzarbeiten und handbemalte Figuren. Alles wird auf Bestellung oder in sehr kleinen Auflagen gefertigt, sodass jedes Stück praktisch einzigartig ist.",
+    "filters": {
+      "all": "Alle"
+    },
+    "empty": "In dieser Kategorie gibt es gerade keine Stücke — schau bald wieder vorbei!",
+    "ctaTitle": "Nicht genau das gefunden, wonach du suchst?",
+    "ctaText": "Fast alle meine Stücke lassen sich individuell gestalten: Farben, Initialen, Wappen, Leinwandgrößen oder deine eigene Figur. Erzähl mir, was dir vorschwebt.",
+    "ctaButton": "Ein individuelles Stück anfragen"
+  },
+  "cart": {
+    "title": "Dein Warenkorb",
+    "empty": "Dein Warenkorb ist leer.",
+    "addButton": "In den Warenkorb",
+    "remove": "Entfernen",
+    "checkout": "Angebot anfragen",
+    "checkoutSubject": "Angebotsanfrage",
+    "checkoutMessage": "Hallo, ich hätte gerne ein Angebot für:",
+    "quantityLabel": "Menge",
+    "openCart": "Warenkorb öffnen"
+  },
+  "nav": {
+    "storeCategories": {
+      "artesanias": "Handwerk",
+      "dibujos": "Digitale Zeichnung",
+      "cuadros": "Gemälde",
+      "figuras": "Figuren"
+    },
+    "home": "Start",
+    "store": "Shop",
+    "gallery": "Galerie",
+    "fanfics": "Fanfics",
+    "inspiration": "Inspiration",
+    "contact": "Kontakt",
+    "faq": "Häufige Fragen",
+    "langLabel": "Sprache"
+  },
+  "productDetail": {
+    "notFound": "Wir konnten dieses Stück nicht finden. Es ist möglicherweise nicht mehr verfügbar — wirf einen Blick in den restlichen Shop.",
+    "customizationTitle": "Personalisierung möglich",
+    "orderButton": "Anfragen oder individuell bestellen",
+    "backToStore": "Zurück zum Shop",
+    "zoomImage": "Bild vergrößern",
+    "taxNote": "Inklusive Steuern · Schneller, geschützter Versand",
+    "availabilityInStock": "Verfügbar",
+    "availabilityOutOfStock": "Nicht verfügbar",
+    "customChoiceLabel": "Personalisierung",
+    "customNone": "Ohne Personalisierung",
+    "customYes": "Personalisieren",
+    "customFinishLabel": "Deckelfinish",
+    "addonsTitle": "Möchtest du dein Set vervollständigen?",
+    "addonsTag": "Zusatzartikel",
+    "customSelected": "Ausgewählt",
+    "customSizeLabel": "Format",
+    "customNotesLabel": "Details deiner Individualisierung (optional)",
+    "customNotesPlaceholder": "Beschreibe, was du dir wünschst",
+    "customLabel": "Personalisiert",
+    "qtyDecrease": "Menge verringern",
+    "qtyIncrease": "Menge erhöhen",
+    "shippingNote": "Versand nach Spanien, in die Europäische Union und nach Großbritannien. Für andere Länder bitte vor der Bestellung Kontakt aufnehmen. Mehr Infos in den häufigen Fragen.",
+    "relatedEyebrow": "Das könnte dir auch gefallen",
+    "relatedTitle": "Weitere Stücke aus derselben Familie"
+  },
+  "search": {
+    "label": "Website durchsuchen",
+    "placeholder": "Suchen...",
+    "empty": "Keine Ergebnisse",
+    "types": { "product": "Shop", "work": "Galerie", "fanfic": "Fanfic", "chapter": "Kapitel" }
+  },
+  "works": {
+    "backToGallery": "Zurück zur Galerie",
+    "consultButton": "Zu diesem Stück anfragen",
+    "notFound": "Dieses Werk konnten wir nicht finden. Du kannst zur Galerie zurückkehren, um die anderen zu sehen.",
+    "items": {
+      "caballero": { "title": "Sir Henry", "description": "Handbemalte Miniatur von Sir Henry, bei der jedes Detail der Rüstung mit feinem Pinsel gearbeitet ist. Die Farbschichten bauen sich langsam auf, um Metall und Stoffen Tiefe zu geben, ohne den Charakter einer Figur zu verlieren, die aus der Nähe betrachtet werden soll.\n\nDie Farben habe ich vom Anfang von Kingdom Come: Deliverance 2 gewählt, denn ich mag Henry persönlich in den Farben von Leipa. Außerdem habe ich den Schild angepasst und flachgedrückt, damit ich das Wappen von Leipa malen konnte.\n\nDieses Fotoshooting war etwas Besonderes. Ich habe diese Figur im echten Leben in das Dorf Skalitz gebracht und sie auf dem einzigen Stein fotografiert, der von der Burg Skalitz übrig ist. Am Ende ist Henry als Sir Henry nach Hause zurückgekehrt." },
+      "minas-tirith": { "title": "Gandalf erreicht Minas Tirith", "description": "Ein Ölgemälde auf Leinwand, das Minas Tirith zwischen den Bergen zeigt, mit dünnen Lasuren gemalt, um das Licht der ersten Stunden des Tages einzufangen. Die Komposition führt den Blick vom Weg bis zu den Mauern, wo jeder Stein mit kurzen, präzisen Pinselstrichen gearbeitet ist." },
+      "set-farkle-blason": { "title": "Farkle-Brett", "description": "Farkle-Brett im Kastenformat von 20 cm x 20 cm, handbemalt und verziert mit deinen Lieblingswappen oder -motiven. Jedes Detail, von der Holzbeize bis zum Pinselstrich des Wappens, wird Stück für Stück ausgearbeitet." },
+      "set-farkle": { "title": "Komplettes Farkle-Set", "description": "Farkle-Brett im Kastenformat von 20 cm x 20 cm, handbemalt und verziert, mit 12 handgravierten Holzwürfeln, 4 besonderen Würfeln zur Auswahl, zwei handgenähten Bechern aus Kunstleder und 50 einzeln handbemalten Holz-Groschen." },
+      "mini-farkle-viajero": { "title": "Mini-Farkle für unterwegs", "description": "Kompakte Version des Farkle-Sets, 12 cm x 12 cm und zum Reisen gedacht. Enthält 12 normale Würfel und 4 besondere, alle handgraviert." },
+      "set-dados-artesanales": { "title": "Handgefertigtes Würfelset", "description": "Set aus 12 handgravierten Holzwürfeln, 2 cm x 2 cm, plus 4 besondere Würfel, die individuell gestaltet werden können." },
+      "groschens-madera-50": { "title": "Holz-Groschen", "description": "50 Holzmünzen im Design böhmischer Groschen. Einzeln bemalt und lackiert, in einem Raffiabeutel aufbewahrt." },
+      "cubilete-artesanal": { "title": "Handgefertigter Würfelbecher", "description": "Würfelbecher aus Kunstleder, 10 cm hoch, ideal zum Würfeln. Von Hand genäht mit eleganten X-Muster." },
+      "abanicos-artesanales": { "title": "Handgefertigte Fächer", "description": "Elegante, handbemalte Fächer. Das Wappen von Leipa ist über das Phönix-Muster des Gambesons von Hans Capon gemalt, und das Wappen von Skalitz über ein mittelalterliches Jagdmuster mit Hunden, auf blauem Hintergrund, der Henry symbolisiert, und dem Silberton von Skalitz." },
+      "luminoso": { "title": "Leuchtend", "description": "Digitale Illustration einer gepanzerten Gestalt und eines weißen Pferdes im Nebel. Das Licht fällt aus einem unbestimmten Punkt im Hintergrund über die metallischen Flächen und erzeugt einen sanften Kontrast zwischen Schatten und Reflexen." },
+      "jinete": { "title": "Heraldischer Reiter", "description": "Ein Stück inspiriert von der Sammleredition von Kingdom Come: Deliverance 2. Ich wollte Henrys Gesicht ohne Helm zeigen, das die Anstrengung eines Kämpfers in der Schlacht ausdrückt. Die Waffe, die er trägt, ist das Schwert von Sir Radzig, das Henry in Zukunft erben wird.\n\nIch mag die Farben von Leipa persönlich sehr, deshalb habe ich Gelb und Schwarz für das Zaumzeug des Pferdes gewählt, ebenso wie das Wappen von Leipa auf dem Schild, den Henry trägt. Das Pferd habe ich in den Farben von Pebbles bemalt, einem Pferd, das mir besonders am Herzen liegt.\n\nUm die Figur abzurunden, habe ich Elemente hinzugefügt, die Sträucher und Unterholz nachahmen und der Figur deutlich mehr Realismus und Tiefe verleihen." },
+      "heinrich": { "title": "Szene Heinrichs", "description": "Szene entstanden für mein Fanfic Beyond The Crossroads, in der Hans Capons Sohn Heinrich vom Bett aus zusieht. Während er im Zimmer seines Vaters in Pirkstejn wartet, betrachtet er aufmerksam das Leipa-Wappen und die zwei gekreuzten Schwerter von Hans und Henry." },
+      "henry-explorando": { "title": "Henry erkundet", "description": "Digitale Illustration von Henry zu Pferd, der durch einen von Nebel umhüllten Kiefernwald reitet. Das Licht fällt aus der Lichtung im Hintergrund über Rüstung, roten Umhang und Mähne des Pferdes, während die Landschaft in grüne und graue Schatten übergeht." },
+      "luke-dale-ardillas": { "title": "Luke Dale und die Eichhörnchen", "description": "Digitale Illustration nach einer Anekdote über Luke Dale. Ein Mann sitzt auf einem grasbewachsenen Friedhof zwischen Grabsteinen, umgeben von Eichhörnchen, die nach Nüssen kommen. Die Szene verbindet Alltägliches mit Unerwartetem, und jedes Tier hat seine eigene Haltung und seinen eigenen Moment." },
+      "reinhart-daku": { "title": "Reinhart und Daku", "description": "Digitale Illustration von zwei Figuren aus einem noch nicht veröffentlichten fiktionalen Werk. Reinhart, in einem violetten Galauniform-Mantel, reicht Daku einen Apfel, der im Gras zwischen herbstlichen Apfelbäumen liegt." },
+      "emotes-twitch": { "title": "Emote-Paket für Twitch", "description": "Ein Emote-Paket, gezeichnet für einen Twitch-Wettbewerb. Drei Ausdrücke derselben Figur, jeder mit einer eigenen Geste: mit einem Bleistift auf ein Blatt schreibend, einen Bierkrug in die Höhe haltend und einen brodelnden Kessel über dem Feuer rührend. Gedacht, um auf einen Blick zu wirken und im Chat auch in kleiner Größe zu funktionieren." },
+      "lune": { "title": "Lune", "description": "Figur mit Effektsockel, bemalt mit Übergängen aus Feuer und Eis. Klassisches Kostüm aus Expedition 33, bemalt mit goldenen und silbernen Kanten, die das Licht reflektieren und der Figur ein deutlich realistischeres Aussehen verleihen." },
+      "horreo-gallego": { "title": "Galicischer Hórreo", "description": "Ein galicischer Hórreo, der traditionelle Kornspeicher auf Steinpfeilern, um den Mais vor Feuchtigkeit und Nagetieren zu schützen. Ein Werk über die ländliche Baukunst Galiciens, mit ihren schlichten Formen und den Spuren der Zeit auf jedem Brett." },
+      "bosque": { "title": "Winkel im Wald", "description": "Ein Ölgemälde auf Schiefer eines Baches, der durch einen dichten Wald fließt. Die Szene entsteht aus Schichten von Grün und Ocker, und das Licht, das zwischen den Bäumen hindurchfällt, zeigt den Weg des Wassers." },
+      "renoir": { "title": "Renoir", "description": "Renoir-Figur in seinem klassischen Kostüm, mit goldenen Pinselstrichen befleckt. Die Nähte sind silbern bemalt und fangen das Licht ein, und der Sockel soll einen Moosboden mit herabgefallenen roten Blättern nachbilden." },
+      "diorama-brutus": { "title": "Brutus-Diorama", "description": "Mir hat Tom McKays Interpretation in dem Theaterstück Julius Caesar so gut gefallen, dass ich eine Figur anfertigen musste, um sie zu würdigen.\n\nDie Basis habe ich von Grund auf entworfen, inspiriert von der Bühnenfassade des Shakespeare's Globe, um die Figur des Brutus buchstäblich auf die Bühne stellen zu können.\n\nDie Pose stammt direkt aus dem Stück, einem meiner Favoriten, in dem die Elemente des historischen Kostüms perfekt zu erkennen sind. Wunderbare Interpretation." },
+      "figura-reencuentro": { "title": "Das Wiedersehen", "description": "Dieser Moment des Wiedersehens ist eine meiner Lieblingsszenen aus Kingdom Come: Deliverance 2. Nach unzähligen Strapazen gelingt es Henry endlich, Hans zu retten, und diese Umarmung ist ein ganz besonderer Moment.\n\nZum ersten Mal wirft sich Hans in Henrys Arme, und ihre Gesichtsausdrücke sagen alles. Von echter Erleichterung bis zur höchsten Freude, und am Ende eine herzliche Umarmung." },
+      "figura-dobby": { "title": "Dobby", "description": "Handbemalte Dobby-Figur mit seiner Socke. Haut- und Stofftöne werden in dünnen Schichten aufgebaut, damit die Figur ihren Ausdruck und ihren schelmischen Charme behält." }
+    }
+  },
+  "gallery": {
+    "eyebrow": "Galerie",
+    "title": "Ein Spaziergang durch die Werkstatt",
+    "subtitle": "Hier findest du alle meine Arbeiten: von meinen ersten Ölgemälden bis zu meinen neuesten Harzstücken, dazu verschiedene Handwerksarbeiten und Zeichnungen. Tippe auf ein Bild, um die Details zu sehen.",
+    "filters": { "all": "Alle", "figuras": "Figuren", "artesanias": "Handwerk", "cuadros": "Gemälde", "dibujos": "Digitale Zeichnungen" },
+    "sections": {
+      "figuras": { "title": "Modellbau & Figuren", "meta": "Miniaturen und Dioramen" },
+      "artesanias": { "title": "Handwerk", "meta": "Einzelstücke und Unikate" },
+      "cuadros": { "title": "Gemälde & Leinwände", "meta": "Handgemalte Gemälde" },
+      "dibujos": { "title": "Digitale Zeichnungen", "meta": "Digitale Illustration", "link": "Alle Zeichnungen ansehen →" }
+    },
+    "viewDetail": "Details ansehen",
+    "captions": {
+      "caballero": "Sir Henry von Skalitz",
+      "minasTirith": "Öl auf Leinwand. Gandalf kommt in Minas Tirith an.",
+      "farkleDetalle": "Detail des handgeschnitzten Wappens.",
+      "abanicos": "Spanischer Fächer",
+      "henryPaseando": "Henry spaziert durch Böhmen",
+      "luminoso": "Digitale Illustration, Licht im Nebel.",
+      "jinete": "Sonderedition: Henry zu Pferde",
+      "heinrich": "Erzählende Szene, digitale Illustration.",
+      "henryExplorando": "Digitale Illustration, Henry erkundet den Wald.",
+      "lukeDaleArdillas": "Digitale Illustration, Luke Dale und die Eichhörnchen.",
+      "reinhartDaku": "Digitale Illustration, Reinhart und Daku.",
+      "setFarkle": "Komplettes Farkle-Set, handbemaltes Brett und Würfel.",
+      "brutus": "Brutus-Diorama, handbemalte Säulen.",
+      "dobby": "Handbemalte Dobby-Figur mit Socke.",
+      "figuraReencuentro": "Harzfigur, das Wiedersehen von Hans und Henry.",
+      "emotesTwitch": "Digitale Illustration, Emote-Paket für Twitch.",
+      "lune": "Lune aus Expedition33",
+      "bosque": "Öl auf Schiefer, ein Winkel des Waldes.",
+      "horreoGallego": "Galicischer Hórreo, traditioneller Kornspeicher Galiciens.",
+      "brutusCast": "Brutus, dargestellt von Tom McKay",
+      "reencuentro": "Das Wiedersehen",
+      "dobbyLabel": "Dobby",
+      "tableroFarkle": "Farkle-Brett",
+      "setFarkleSet": "Farkle-Set",
+      "miniFarkleLabel": "MiniFarkle",
+      "luminosoLabel": "Leuchtend",
+      "heinrichCapon": "Heinrich Capon",
+      "lukeDaleGaleria": "Luke Dale und die Eichhörnchen",
+      "emotesDiscordTwitch": "Emote-Paket für Discord und Twitch",
+      "reinhartDakuGaleria": "Reinhart und Daku",
+      "dadosArtesanales": "Handgefertigte Würfel",
+      "groschensBohemios": "Böhmische Groschen",
+      "cubiletesPiel": "Becher aus Kunstleder",
+      "renoir": "Renoir aus Expedition33",
+      "miniFarkle": "Mini-Farkle für unterwegs, bereit für den Rucksack."
+    },
+    "placeholder1": "📷 Foto aus der Werkstatt — demnächst",
+    "placeholder2": "📷 Eine Bestellung wird vorbereitet — demnächst"
+  },
+  "custom": {
+    "eyebrow": "Individuelles & Geschenke",
+    "title": "Ein Geschenk, das wirklich etwas bedeutet",
+    "subtitle": "Eingravierte Initialen, ein eigenes Wappen, die Lieblingsfigur von jemandem oder eine Szene für ein bestimmtes Datum. Was sich vorstellen lässt, lässt sich meistens auch umsetzen.",
+    "cards": {
+      "gifts": {
+        "title": "🎁 Geschenke mit eigenem Namen",
+        "text": "Füge Initialen, ein Datum oder ein kleines Symbol zu jedem Stück im Shop hinzu: ein Farkle-Set, eine Figur oder ein Gemälde. Perfekt für Hochzeiten, Geburtstage oder einfach so."
+      },
+      "celebrations": {
+        "title": "🎄 Besondere Anlässe und Termine",
+        "text": "Zu Weihnachten, Jubiläen oder Abschieden bereite ich Stücke mit begrenzten Zeitfenstern vor: Ornamente, kleine Gemälde oder thematische Figuren. Reserviere rechtzeitig, damit alles pünktlich ankommt."
+      },
+      "fullCustom": {
+        "title": "✨ Hundertprozent individueller Auftrag",
+        "text": "Deine eigene Idee von Anfang bis Ende: ein digitales Porträt deiner Figur, ein Gemälde eines besonderen Ortes oder eine nach deiner Vorlage bemalte Figur. Wir besprechen, skizzieren und entwickeln es gemeinsam."
+      }
+    },
+    "process": {
+      "eyebrow": "So funktioniert es",
+      "title": "Von deiner Idee zum fertigen Stück",
+      "step1": {
+        "title": "Erzähl es mir",
+        "text": "Schreib mir über das Kontaktformular oder die sozialen Medien und erzähl mir, was dir vorschwebt, bis wann du es brauchst und dein ungefähres Budget."
+      },
+      "step2": {
+        "title": "Vorschlag & Angebot",
+        "text": "Ich bereite eine Skizze oder einen Personalisierungsvorschlag vor, zusammen mit dem Endpreis und der geschätzten Lieferzeit."
+      },
+      "step3": {
+        "title": "Es geht los",
+        "text": "Sobald der Auftrag bestätigt ist, beginne ich mit der Arbeit an deinem Stück und halte dich mit Fotos vom Fortschritt auf dem Laufenden."
+      },
+      "step4": {
+        "title": "Mit Sorgfalt verpackt",
+        "text": "Ich schütze jedes Stück, als wäre es zerbrechlich — weil es das oft ist — und verschicke es mit größtmöglicher Sorgfalt."
+      }
+    },
+    "ctaTitle": "Hast du schon ein Datum im Kopf?",
+    "ctaText": "Individuelle Aufträge brauchen Vorbereitungszeit. Melde dich möglichst früh, damit dein Stück rechtzeitig fertig wird.",
+    "ctaButton": "Erzähl mir deine Idee"
+  },
+  "collab": {
+    "eyebrow": "Kooperationen",
+    "title": "Lass uns gemeinsam etwas Neues schaffen",
+    "subtitle": "Neben dem Shop bin ich offen für Illustrationsaufträge und Kooperationsvorschläge mit anderen Marken, Kreativen oder Projekten.",
+    "commissions": {
+      "eyebrow": "Auftragsarbeiten",
+      "title": "Beauftrage deine eigene Illustration",
+      "p1": "Ich zeichne Originalcharaktere, Fanart und digitale Porträts mit einem sorgfältigen, erzählerischen Stil. Ich kann mit einer Beschreibung, visuellen Referenzen oder deiner eigenen Rollenspiel- oder Videospielfigur arbeiten.",
+      "p2": "Jeder Auftrag beinhaltet eine erste Skizze, um Pose und Komposition zu klären, bevor es zur Farbe geht — so stellen wir sicher, dass das Endergebnis genau das ist, was du dir vorgestellt hast.",
+      "cta": "Demnächst"
+    },
+    "brands": {
+      "eyebrow": "Marken & Kreative",
+      "title": "Eine Kooperation vorschlagen",
+      "p1": "Wenn du eine Marke, einen Shop, ein Verlagsprojekt oder einen Content-Kanal hast und denkst, wir passen zusammen, schreib mir. Besonders interessiert bin ich an Kooperationen rund um Handwerk, mittelalterliche Fantasy, Videospiele und Literatur.",
+      "p2": "Ich kann auch Emote-Pakete oder Illustrationen für Streamer und Content-Creator vorbereiten, inklusive Überarbeitungen, bis der Stil wirklich zu dir passt.",
+      "cta": "Demnächst"
+    },
+    "workshops": {
+      "eyebrow": "Workshops",
+      "title": "Einführungsworkshops ins Handwerk",
+      "text": "Ich bin offen dafür, Präsenz- oder Online-Workshops zum Bemalen von Miniaturen, digitalem Zeichnen oder Holzhandwerk zu organisieren oder daran teilzunehmen — für Privatpersonen ebenso wie für Kulturräume, Läden oder Events. Wenn dich das interessiert, erzähl mir von deiner Idee.",
+      "cta": "Über einen Workshop sprechen"
+    },
+    "examples": {
+      "eyebrow": "Arbeitsbeispiele",
+      "title": "Einige frühere Aufträge",
+      "caption1": "Personalisiertes Porträt nach einer echten Szene.",
+      "caption2": "Emote-Paket für einen Streaming-Kanal.",
+      "caption3": "Erzählende Szene für ein literarisches Projekt."
+    }
+  },
+  "inspiration": {
+    "eyebrow": "Inspiration",
+    "title": "Die Welten, die meine Arbeit prägen",
+    "subtitle": "Ich habe schon als Kind immer gern gemalt und gebastelt, aber das, was ich heute mache, hat einen gemeinsamen Ursprung: Kingdom Come Deliverance",
+    "kcd": {
+      "eyebrow": "Kingdom Come: Deliverance",
+      "title": "Das Spiel, das den Grundstein für all das gelegt hat",
+      "p1": "Kingdom Come: Deliverance ist wahrscheinlich der Grund, warum JessyIsCrafting heute so existiert, wie es existiert. Die Kraft eines Videospiels als Kunst an sich ist sehr stark und inspirierend.",
+      "quote": "Eine unendliche Welt der Inspiration, mit der man praktisch alles erschaffen kann.",
+      "p2": "Ich entdeckte die Landschaften Böhmens, so grün und meiner Heimat ähnlich, dass ich mich wie zu Hause fühlte. Seine Figuren, seine Art Direction und sein Soundtrack sind die perfekte Ergänzung, um dem Werk Farbe zu geben.",
+      "p3": "Aber ich brauchte mehr, und wie ich ging es Hunderten von Menschen. Ich entdeckte die Welt der Fanfics und wusste sofort, dass sie genau das Richtige für mich ist. Nicht nur lesen, sondern eigene Geschichten schreiben und mit anderen teilen.",
+      "p4": "Dasselbe gilt für die Kunst. Ich erinnere mich nicht, jemals eine so große kreative Explosion erlebt zu haben wie mit Kingdom Come Deliverance. Ich spreche nicht nur von Gemälden: Ich habe mich getraut, meine ersten digitalen Zeichnungen zu machen und Wege zu erkunden, die ich nie zuvor ausprobiert hatte."
+    },
+    "reading": {
+      "eyebrow": "Lesen & Schreiben",
+      "title": "Die andere Hälfte meines Kopfes",
+      "p1": "Wenn ich nicht male, lese oder schreibe ich wahrscheinlich gerade. Ich habe es schon immer geliebt, die Lücken zu füllen, die eine Geschichte offenlässt: was eine Nebenfigur denkt, was zwischen zwei Szenen geschah, was in einem Moment empfunden wurde, den das Spiel kaum streift.",
+      "p2": "Und weil ich noch mehr brauchte, konnte ich nicht widerstehen: Ich bin nach Böhmen gereist! Ich musste diese virtuellen Schauplätze, in denen ich Stunden und Stunden verbracht habe, selbst auf meiner Haut spüren und jeden Winkel genießen, als wäre ich wirklich dort.",
+      "p3": "Ich beschloss, alle Orte aus beiden Spielen zu besuchen, und keiner hat mich enttäuscht. Die böhmische Wiese ist spektakulär, und die bergige Landschaft von Trosky gehört zu meinen Favoriten. Ich empfehle dringend, diese Reise einmal im Leben zu machen."
+    },
+    "ctaTitle": "Möchtest du sehen, wo all diese Inspiration endet?",
+    "ctaText": "Im Shop findest du Gemälde, Figuren und Zeichnungen, die auf die eine oder andere Weise aus genau diesen Welten entstanden sind.",
+    "ctaButton": "Zum Shop"
+  },
+  "fanfics": {
+    "comingSoon": "Noch in Arbeit. Bald kannst du diese Geschichte hier lesen.",
+    "title": "Fanfics und Geschichten",
+    "subtitle": "Geschichten, inspiriert von den Miniaturen der Werkstatt und Fiktion aus mittelalterlichen Welten. Hier direkt lesbar oder in unserer Bibliothek auf Archive of Our Own (AO3).",
+    "filterLabel": "Filtern",
+    "filters": {
+      "all": "Alle",
+      "fanfic": "Fanfic",
+      "original": "Originalerzählung",
+      "ongoing": "Laufend",
+      "finished": "Abgeschlossen"
+    },
+    "latestLabel": "Zuletzt aktualisiertes Fanfic",
+    "catalogTitle": "Geschichtenkatalog",
+    "catalogSubtitle": "Die vollständige Sammlung, bereit zum Lesen hier oder auf AO3.",
+    "showing": "Angezeigt:",
+    "storiesCount": "Geschichten",
+    "empty": "Zu diesem Filter gibt es noch keine Geschichten.",
+    "readWeb": "Hier lesen",
+    "viewAO3": "Auf AO3 ansehen ↗",
+    "subscribe": {
+      "eyebrow": "Newsletter",
+      "title": "Verpasse kein Update",
+      "text": "Abonniere, und wir informieren dich, wenn es neue Kapitel, Geschichten und Erzählungen gibt.",
+      "emailLabel": "E-Mail-Adresse",
+      "emailPlaceholder": "du@email.com",
+      "submit": "Abonnieren",
+      "captchaMissing": "Bitte markiere das Verifizierungsfeld, bevor du dich anmeldest.",
+      "invalidEmail": "Bitte gib eine gültige E-Mail-Adresse ein.",
+      "sending": "Wird gesendet ...",
+      "error": "Die Anmeldung konnte nicht abgeschlossen werden. Bitte versuche es erneut."
+    },
+    "game": "Kingdom Come: Deliverance",
+    "language": "Englisch",
+    "items": {
+      "worth": {
+        "title": "Worth the Wreckage",
+        "summary": "Henry führt ein einfaches Leben, mit dem einen oder anderen Job, den man besser nicht hinterfragt. Als er gebeten wird, Hans ohne Fragen bei sich aufzunehmen, beginnen zwei völlig unterschiedliche Welten aufeinanderzuprallen und sich langsam gegenseitig zu verändern."
+      },
+      "something": {
+        "title": "Something We Cannot Name",
+        "summary": "Was Hans widerfuhr, während er in Malešov gefangen gehalten wurde, und was Henry durch den Kopf ging, während er sich seinen gefährlichsten Missionen stellte. Die Schlüsselereignisse von KCD2, erzählt aus Hans' Perspektive, bis hin zu den Ereignissen in Suchdol."
+      },
+      "road": {
+        "title": "The Road to Constantinople",
+        "summary": "Hans Capons Hochzeit rückt näher. Bevor er sich diesem Schicksal ergibt, erfüllt er ein Versprechen, das er Henry vor Jahren gegeben hat: gemeinsam bis nach Konstantinopel zu reisen. Eine letzte Reise voller Liebe und Freiheit, geprägt von der Schönheit der Welt — und ihrer Grausamkeit."
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "title": "Lass uns reden",
+    "subtitle": "Möchtest du ein Stück bestellen, eine Kooperation vorschlagen oder einfach nur Hallo sagen? Hier bist du richtig.",
+    "formTitle": "Schreib mir direkt",
+    "form": {
+      "name": "Name",
+      "email": "E-Mail",
+      "subject": "Betreff",
+      "subjectPlaceholder": "z. B. Individueller Auftrag, Kooperation ...",
+      "message": "Nachricht",
+      "submit": "Nachricht senden",
+      "note": "Ich antworte in der Regel innerhalb von 1-2 Tagen. Wenn deine Anfrage dringend ist und du noch keine Antwort erhalten hast, kannst du mich über Instagram kontaktieren."
+    },
+    "channelsTitle": "Weitere Wege, mich zu erreichen",
+    "channels": {
+      "email": "E-Mail"
+    },
+    "shippingTitle": "Bevor du schreibst",
+    "shippingText": "Ich versende problemlos nach Spanien, in die Europäische Union und nach Großbritannien. Wenn du in einem anderen Land lebst, schreib mir bitte zuerst, um Fristen und Versandkosten zu bestätigen. Alle Details findest du in den häufigen Fragen.",
+    "prefillMessage": "Hallo, ich möchte gerne bestellen:"
+  },
+  "faq": {
+    "eyebrow": "Häufige Fragen",
+    "title": "Alles, was du vor einer Bestellung wissen musst",
+    "subtitle": "Wenn deine Frage hier nicht beantwortet wird, melde dich einfach über das Kontaktformular.",
+    "items": {
+      "shipping": {
+        "q": "In welche Länder versendet ihr?",
+        "a": "Ich versende standardmäßig nach ganz Spanien, in die restliche Europäische Union und nach Großbritannien. Wenn du anderswo lebst, schreib mir vor der Bestellung — wir klären das gemeinsam, da Zollgebühren und Lieferzeiten stark variieren können."
+      },
+      "prepTime": {
+        "q": "Wie lange dauert die Vorbereitung meiner Bestellung?",
+        "a": "Bereits fertige Stücke verlassen meine Werkstatt normalerweise innerhalb von 2-4 Werktagen. Individuelle Aufträge, Illustrationsaufträge oder nach Maß bemalte Figuren brauchen in der Regel 1 bis 3 Wochen, je nach Komplexität und aktueller Warteliste. Rund um Weihnachten empfehle ich, deutlich im Voraus zu bestellen."
+      },
+      "returns": {
+        "q": "Kann ich eine Bestellung zurückgeben oder umtauschen?",
+        "a": "Nicht personalisierte Katalogstücke können innerhalb von 14 Kalendertagen nach Erhalt zurückgegeben werden, sofern sie unbenutzt und in einwandfreiem Zustand ankommen. Personalisierte Stücke, Sonderanfertigungen und Illustrationsaufträge können nicht zurückgegeben werden, außer bei einem Fertigungsfehler oder einem Transportschaden."
+      },
+      "packaging": {
+        "q": "Wie werden die Stücke verschickt?",
+        "a": "Mit sehr viel Sorgfalt. Figuren und Gemälde werden mit gepolstertem Material geschützt, und wo immer möglich, verwende ich weniger oder wiederverwendetes Plastik. Wenn dein Stück zerbrechlich ist, wird das deutlich auf dem Paket vermerkt, damit es auch die Person weiß, die es für dich entgegennimmt."
+      },
+      "commission": {
+        "q": "Wie beauftrage ich eine Illustration?",
+        "a": "Normalerweise nehme ich keine Illustrationsaufträge an, aber wenn dir mein Stil gefällt und du dir eine Illustration von mir wünschst, zögere nicht, mich über das dafür vorgesehene Kontaktformular zu kontaktieren. Ich prüfe die Idee, erstelle die Skizze, und dann schließen wir den Auftrag ab."
+      },
+      "payment": {
+        "q": "Wie bezahle ich einen Auftrag?",
+        "a": "Sobald das Angebot vereinbart ist, schicke ich dir die Zahlungsdetails über den Kanal, den wir für den Auftrag nutzen (Überweisung oder die jeweilige Plattform). Bei größeren Stücken oder Aufträgen bitte ich meist um eine Anzahlung bei Auftragsbestätigung und den Rest vor dem Versand."
+      }
+    },
+    "ctaTitle": "Noch Fragen?",
+    "ctaText": "Schreib mir, ich helfe dir gerne weiter.",
+    "ctaButton": "Zum Kontakt"
+  },
+  "notFound": {
+    "eyebrow": "Fehler 404",
+    "title": "Dieser Pfad verliert sich im Wald",
+    "text": "Die gesuchte Seite existiert nicht mehr oder wurde verschoben. Zurück auf den Hauptweg geht es hier.",
+    "cta": "Zurück zur Startseite"
+  },
+  "footer": {
+    "tagline": "Handwerk, Malerei und Illustration, von Hand und mit Liebe gefertigt, aus Spanien.",
+    "exploreTitle": "Entdecken",
+    "gallery": "Galerie",
+    "serviceTitle": "Aufträge",
+    "contactTitle": "Kontakt",
+    "location": "Handgemacht in Spanien",
+    "rights": "Alle Rechte vorbehalten.",
+    "madeWith": "Mit 🌿 und sehr viel Liebe gemacht.",
+    "contactFormLink": "Kontaktformular"
+  },
+  "brand": {
+    "name": "JessyIsCrafting — zur Startseite"
+  },
+  "common": {
+    "from": "Ab",
+    "customizable": "Personalisierbar",
+    "viewProduct": "Produkt ansehen"
+  },
+  "categories": {
+    "artesanias": {
+      "name": "Handwerk",
+      "description": "Handgeschnitzte und handbemalte Holzstücke, zum Spielen und Verschenken gemacht."
+    },
+    "dibujos": {
+      "name": "Digitale Zeichnung",
+      "description": "Digitale Illustrationen, Porträts und erzählende Szenen mit malerischem Touch."
+    },
+    "cuadros": {
+      "name": "Gemälde",
+      "description": "Ölgemälde auf Leinwand, inspiriert von Landschaften und Fantasiewelten."
+    },
+    "figuras": {
+      "name": "Figuren",
+      "description": "Miniaturen und 3D-Figuren, mit feinem Pinsel bemalt, im Sammlerfinish."
+    }
+  },
+  "products": {
+    "set-farkle-blason": {
+      "finishes": { "caoba": "Mahagoni", "roble": "Rustikale Eiche" },
+      "addons": { "cubilete-extra": { "name": "Zusätzlicher handgefertigter Becher", "description": "Handgenähtes Kunstleder" }, "dados-extra": { "name": "Set mit 12 zusätzlichen Würfeln", "description": "" }, "groschens-madera": { "name": "50 Holz-Groschen", "description": "" } },
+      "name": "Farkle-Brett",
+      "short": "Farkle-Brett in Holzbox-Format, handbemalt mit deinen Lieblingswappen.",
+      "description": "Farkle-Brett im Kastenformat von 20 cm x 20 cm, handbemalt und verziert mit deinen Lieblingswappen oder -motiven. Jedes Detail, von der Holzbeize bis zum Pinselstrich des Wappens, wird Stück für Stück ausgearbeitet.",
+      "customization": "Du kannst die Holzfarbe wählen, die Wappen, die du auf jeder Seite möchtest, bis zu 4 (zwei außen und zwei innen), oder ein individuelles Motiv wie Buchstaben oder Zeichnungen."
+    },
+    "set-farkle": {
+      "finishes": { "caoba": "Mahagoni", "roble": "Rustikale Eiche" },
+      "addons": { "cubilete-extra": { "name": "Zusätzlicher handgefertigter Becher", "description": "Handgenähtes Kunstleder" }, "dados-extra": { "name": "Set mit 12 zusätzlichen Würfeln", "description": "" }, "groschens-madera": { "name": "50 Holz-Groschen", "description": "" } },
+      "name": "Komplettes Farkle-Set",
+      "short": "Farkle-Brett in Holzbox-Format, handbemalt mit deinen Lieblingswappen.",
+      "description": "Ein Farkle-Brett im Kastenformat von 20 cm x 20 cm, handbemalt und verziert mit deinen Lieblingswappen oder -motiven. Ein Set aus 12 handgravierten Holzwürfeln und 4 besonderen Würfeln, die du wählen kannst. Teufelskopf, Hugos Zahn... wähle 4!\nZwei handgenähte Becher aus Kunstleder gehören dazu, damit jeder Wurf perfekt gelingt.\nUnd um das Set zu vervollständigen: 50 handbemalte Holz-Groschen, Stück für Stück, damit das Spiel noch mehr Spaß macht.",
+      "customization": "Du kannst die Holzfarbe wählen, die Wappen, die du auf jeder Seite möchtest, bis zu 4 (zwei außen und zwei innen), oder ein individuelles Motiv wie Buchstaben oder Zeichnungen."
+    },
+    "mini-farkle-viajero": {
+      "finishes": { "caoba": "Mahagoni", "roble": "Rustikale Eiche" },
+      "addons": { "cubilete-extra": { "name": "Zusätzlicher handgefertigter Becher", "description": "Handgenähtes Kunstleder" }, "micro-dados": { "name": "Set mit 6 zusätzlichen Mikro-Würfeln", "description": "Rechteckige Kante, 1 cm x 1 cm" }, "groschens-madera": { "name": "50 Holz-Groschen", "description": "" } },
+      "name": "Mini-Farkle für unterwegs",
+      "short": "Eine kompakte Version des Farkle-Sets, bereit für Rucksack oder Tasche.",
+      "description": "Dieselbe Liebe zum Detail, in einem kleinen, reisetauglichen Format. Ideal für Ausflüge, Camping oder einfach, um immer eine spontane Partie griffbereit zu haben.\n- Brett mit 12 cm x 12 cm.\n- Enthält 12 normale Würfel und 4 besondere, alle von Hand graviert. Ich lege immer 4 „Teufelsköpfe“ bei, du kannst aber auch ein anderes Design anfragen.",
+      "customization": "Du kannst die Holzfarbe wählen, die Wappen, die du auf jeder Seite möchtest, bis zu 4 (zwei außen und zwei innen), oder ein individuelles Motiv wie Buchstaben oder Zeichnungen."
+    },
+    "set-dados-artesanales": {
+      "name": "Handgefertigtes Würfelset",
+      "short": "Geschnitzte und handbemalte Würfel in handwerklicher Ästhetik",
+      "description": "Individualisierbar.",
+      "customization": "Du kannst 4 Würfel mit besonderem Design wählen. Erzähl mir von deiner Idee oder deinen Farben. Du kannst bis zu 2 Würfel mit abgerundeten Kanten wählen."
+    },
+    "groschens-madera-50": {
+      "name": "Holz-Groschen",
+      "short": "50 Holz-Groschen, einzeln handbemalt",
+      "description": "50 Holzmünzen im Design böhmischer Groschen. Einzeln bemalt und lackiert, in einem Raffiabeutel aufbewahrt."
+    },
+    "cubilete-artesanal": {
+      "name": "Handgefertigter Würfelbecher",
+      "short": "Würfelbecher aus Kunstleder, handgeschnitten und handgenäht",
+      "description": "Würfelbecher aus Kunstleder, 10 cm hoch, ideal zum Würfeln. Von Hand genäht mit eleganten X-Muster. Preis pro Stück.",
+      "addons": { "dados-6": { "name": "Würfelset", "description": "" }, "groschens-madera": { "name": "50 Holz-Groschen", "description": "" } }
+    },
+    "figura-reencuentro": {
+      "name": "Das Wiedersehen",
+      "short": "Umarmung beim Wiedersehen von Hans und Henry",
+      "description": "Harzfigur, 16 cm hoch, inklusive Sockel. Die Umarmung zwischen Hans und Henry während der Rettung in Malešov. Ihr erleichterter Gesichtsausdruck wirkt wirklich berührend.",
+      "customization": "Du kannst die Farbe von Henrys oder Hans' Gambeson und Hose wählen, aber nicht die Form der Figur."
+    },
+    "figura-dobby": {
+      "name": "Dobby aus Harry Potter",
+      "short": "Dobby-Figur mit seiner Socke",
+      "description": "Harzfigur des Elfen Dobby, 18 cm hoch. Natürliche Farben und matte Oberfläche, mit Glanzlichtern in den Augen und im Funken der Magie."
+    },
+    "oleo-minas-tirith": {
+      "name": "Ölgemälde „Die Zitadelle“",
+      "short": "Eine in Öl gemalte Interpretation einer großen Steinzitadelle zwischen Bergen, inspiriert von mittelalterlicher Fantasy.",
+      "description": "Eine handgemalte Hommage an die Fantasy-Landschaften, die mich am meisten berühren: eine weiße, in den Fels gehauene Zitadelle unter einem stürmischen Himmel. Öl auf Leinwand, mit mehreren Lasurschichten für mehr Tiefe in Stein und Berg.",
+      "customization": "Kann in anderen Leinwandgrößen bestellt werden, auf Wunsch auch mit angepasster Farbpalette oder einer anderen Landschaft."
+    },
+    "oleo-rincon-bosque": {
+      "name": "Ölgemälde „Waldwinkel“",
+      "short": "Ein versteckter Bach zwischen den Bäumen, in Öl gemalt mit viel natürlichem Licht.",
+      "description": "Gemalt nach einem jener Waldwinkel, die wie aus einem Märchen wirken: Wasser, das über Steine fließt, Licht, das durch die Blätter fällt, und sehr viel Grün in all seinen Schattierungen. Ein Stück, das ein bisschen Natur an jede Wand bringt.",
+      "customization": "Erhältlich in verschiedenen Leinwandgrößen; auf Wunsch male ich auch deine eigene Referenzlandschaft."
+    },
+    "retrato-digital-personalizado": {
+      "name": "Individuelles digitales Porträt",
+      "short": "Eine digitale Illustration nach deiner eigenen Szene, mit warmem Stil und auf Wunsch einer Prise Humor.",
+      "description": "Erzähl mir, wer oder was dargestellt werden soll — du selbst, dein Haustier, deine Rollenspielfigur — und ich verwandle es in eine digitale Illustration mit halbrealistischem oder comicartigem Finish, ganz wie du magst. Dieses Stück, mit Eichhörnchen inklusive, war einer meiner liebsten Aufträge.",
+      "customization": "Vollständig individuell gestaltbar: Anzahl der Figuren, Hintergrund, Stil (realistisch, Comic, Chibi) und Lieferformat (digital oder als Druck)."
+    },
+    "pack-emotes-personalizados": {
+      "name": "Individuelles Emote-Paket",
+      "short": "Ein Set aus 3 illustrierten Emotes, perfekt für Discord, Twitch oder deinen Lieblingschat.",
+      "description": "Ein Paket aus drei Emotes mit sympathischem, ausdrucksstarkem Stil, gemacht, um jeden Chat oder Streaming-Kanal zu beleben. Lieferung in hoher Auflösung mit transparentem Hintergrund, startklar für deine Plattform.",
+      "customization": "Du kannst die Ausdrücke, die Farben und auf Wunsch auch deine eigene Figur oder dein Avatar als Vorlage wählen."
+    },
+    "escena-heinrich": {
+      "name": "Szene „Heinrichs Zimmer“",
+      "short": "Eine erzählende digitale Illustration eines mittelalterlichen Innenraums am Kamin.",
+      "description": "Eine Szene, die mehr erzählen soll als nur ein Bild: ein Junge sitzt am Kamin, in einem Zimmer voller heraldischer Details und Wärme. Digitale Illustration mit malerischem Finish, für alle, die Geschichten mit Tiefgang mögen.",
+      "customization": "Ich kann die Szene an deine eigene Figur anpassen, die Perspektive ändern oder eine komplett neue Komposition auf Bestellung gestalten."
+    },
+    "jinete-de-la-niebla": {
+      "name": "„Der Reiter im Nebel“",
+      "short": "Eine digitale Illustration eines berittenen Ritters, verloren im Nebel eines Kiefernwaldes.",
+      "description": "Eine meiner stimmungsvollsten Illustrationen: ein Reiter, der sich durch Kiefern und Nebel bewegt, mit diesem kühlen Licht, das ich so gerne male. Eine kleine Hommage an die Ästhetik, die mich in der mittelalterlichen Fantasy am meisten inspiriert.",
+      "customization": "Als Druck in verschiedenen Größen erhältlich; die Originalszene ist einzigartig, aber ich kann eine ähnliche Komposition mit deiner eigenen Figur erstellen."
+    },
+    "hijos-del-caos": {
+      "name": "„Kinder des Chaos“",
+      "short": "Eine erzählende digitale Illustration zweier Dark-Fantasy-Figuren, ein Beispiel für einen Charakter-Illustrationsauftrag.",
+      "description": "Ein Auftrag mit Fokus auf die Beziehung zwischen zwei Originalfiguren, mit herbstlicher Farbpalette und sorgfältig aufgebauter Komposition. Ein Beispiel für die Art erzählender Szenen, die ich für deine eigenen Figuren oder Geschichten anfertigen kann.",
+      "customization": "Als Auftrag mit deinen eigenen Figuren, wählbarer Farbpalette und wählbarem Detailgrad erhältlich."
+    },
+    "luminoso": {
+      "name": "„Luminoso“ (Leuchtend)",
+      "short": "Eine halbrealistische digitale Illustration einer Rüstung und eines weißen Pferdes, ein einzigartiges Stück.",
+      "description": "Ein Stück, das sich dem Licht widmet: das Weiß des Pferdes, der kühle Glanz der Rüstung und ein unscharfer Waldhintergrund. Eine meiner persönlichsten Illustrationen, ohne dass ein Auftrag dahintersteckt."
+    },
+    "miniatura-caballero-henry": {
+      "name": "Sir Henry",
+      "sizes": { "10cm": "10 cm (Miniatur)", "15cm": "15 cm (Standard)", "18cm": "18 cm (groß)" },
+      "short": "Figur von Henry als Ritter, handbemalt mit Naturdetails.",
+      "description": "Figur von Henry als Ritter, handbemalt mit Naturdetails.",
+      "customization": "Ich kann sie in den Farben deiner Wahl bemalen. Wenn du die Brigantine und das Gambeson in einer anderen Farbe möchtest, sag mir das im Feld für die Personalisierung."
+    },
+    "diorama-jinete-heraldico": {
+      "name": "Henry zu Pferde",
+      "short": "Henry zu Pferde mit Schild und Schwert, 23 cm hoch.",
+      "description": "Ein Stück inspiriert von der Collector's Edition, das Henry auf einem Pferd zeigt. Diesmal habe ich es in den Farben von Pebbles bemalt, meinem geliebten Pferd aus dem Spiel. Das Zaumzeug ist in Leipas Farben gehalten, ebenso der Schild, und Henry schwingt das Schwert von Sir Radzig. Mit Naturdetails ist es ein ausgewogenes Stück von 23 cm Höhe, groß und perfekt zum Dekorieren deines Zuhauses.",
+      "customization": "Ich kann es in den Farben deiner Wahl bemalen: die Farbe des Pferdes und des Zaumzeugs sowie Henrys Schild und Gambeson. Sag mir das im Feld für die Personalisierung."
+    },
+    "figura-lune": {
+      "name": "Figur „Lune“",
+      "short": "Lune-Figur aus Expedition 33 mit ihren Elementeffekten.",
+      "description": "Detaillierte Figur der Lune aus dem Videospiel Expedition 33. Umgeben von ihren Elementeffekten, ist es ein komplexes, aber sehr schönes Stück. 21 cm hoch.",
+      "customization": "Bemalung deiner eigenen Figur (Harz oder Miniatur mit Basis) mit den Effekten und Farben deiner Wahl."
+    },
+    "figura-renoir": {
+      "name": "Figur „Renoir“",
+      "short": "Renoir-Figur aus Expedition 33 mit ihrem farbbeklecksten Anzug und mattem Finish.",
+      "description": "Renoir-Figur aus dem Videospiel Expedition 33 in seinem klassischen schwarzen, farbbefleckten Anzug, auf gefallenen Blütenblättern. 19 cm hoch."
+    },
+    "diorama-brutus": {
+      "name": "„Brutus“, aus Julius Caesar",
+      "short": "Ein kleines, handbemaltes architektonisches Diorama mit Säulen und goldenen Details.",
+      "description": "Ein Stück, das ich nach Tom McKays Interpretation der Rolle in \"Julius Caesar\" am Shakespeare's Globe Theatre in London entworfen habe. Die Basis, auf der die Figur des Brutus steht, ist direkt von der Bühne dieses Theaters inspiriert.",
+      "finishLabel": "Oberfläche",
+      "finishes": { "brillo": "Glänzend", "mate": "Matt" },
+      "customization": "Die Farben dieses Stücks können nicht gewählt werden, nur die Oberfläche."
+    }
+  }
+}
