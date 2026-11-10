@@ -13,10 +13,18 @@
   let currentDict = null;
   let currentLang = null;
 
-  // Orden: ?lang=, elección manual guardada, idioma principal del navegador (es/en/de) y, si no, inglés.
+  // Ruta a la raíz del sitio desde la página actual ("../" en las carpetas es/ y de/).
+  function rootPrefix() {
+    return document.documentElement.getAttribute('data-root') || '';
+  }
+
+  // Orden: ?lang=, idioma fijado de la carpeta (data-static-lang), elección guardada, navegador (es/en/de) y, si no, inglés.
   function detectLang() {
     const fromUrl = new URLSearchParams(location.search).get('lang');
     if (SUPPORTED_LANGS.includes(fromUrl)) return fromUrl;
+
+    const pinned = document.body && document.body.dataset.staticLang;
+    if (SUPPORTED_LANGS.includes(pinned)) return pinned;
 
     const saved = localStorage.getItem(STORAGE_KEY);
     if (saved && SUPPORTED_LANGS.includes(saved)) return saved;
@@ -51,9 +59,29 @@
     });
   }
 
+  function setMeta(attr, key, content) {
+    const el = document.head.querySelector(`meta[${attr}="${key}"]`);
+    if (el) el.setAttribute('content', content);
+  }
+
+  // Título y descripción de páginas estáticas desde el bloque "pages" del diccionario.
+  function applyPageMeta(dict) {
+    const page = location.pathname.split('/').pop().replace(/\.html$/, '') || 'index';
+    const meta = resolveKey(dict, `pages.${page}`);
+    if (!meta) return;
+    if (meta.title) {
+      document.title = meta.title;
+      setMeta('property', 'og:title', meta.title);
+    }
+    if (meta.description) {
+      setMeta('name', 'description', meta.description);
+      setMeta('property', 'og:description', meta.description);
+    }
+  }
+
   function fetchDict(lang) {
     if (cache[lang]) return Promise.resolve(cache[lang]);
-    return fetch(`i18n/${lang}.json`)
+    return fetch(`${rootPrefix()}i18n/${lang}.json`)
       .then((res) => {
         if (!res.ok) throw new Error(`No se pudo cargar el idioma ${lang}`);
         return res.json();
@@ -73,6 +101,7 @@
         currentLang = lang;
         document.documentElement.setAttribute('lang', lang);
         applyTranslations(dict);
+        applyPageMeta(dict);
         const select = document.getElementById('langSelect');
         if (select) select.value = lang;
         document.dispatchEvent(new CustomEvent('i18n:ready', { detail: { lang, dict } }));
@@ -86,8 +115,19 @@
       if (select) {
         select.value = lang;
         select.addEventListener('change', (e) => {
-          localStorage.setItem(STORAGE_KEY, e.target.value);
-          setLanguage(e.target.value);
+          const target = e.target.value;
+          localStorage.setItem(STORAGE_KEY, target);
+          // Páginas con versión por idioma: ir a su URL (raíz = inglés, es/ y de/).
+          if (document.documentElement.hasAttribute('data-localized')) {
+            const file = location.pathname.split('/').pop() || 'index.html';
+            const folder = target === DEFAULT_LANG ? '' : `${target}/`;
+            const search = new URLSearchParams(location.search);
+            search.delete('lang');
+            const query = search.toString();
+            location.href = rootPrefix() + folder + file + (query ? `?${query}` : '');
+            return;
+          }
+          setLanguage(target);
         });
       }
     });
@@ -98,6 +138,8 @@
     getDict: () => currentDict,
     getLang: () => currentLang,
     t: (key) => resolveKey(currentDict || {}, key),
+    productUrl: (id) => `producto-${encodeURIComponent(id)}.html?lang=${currentLang || document.documentElement.getAttribute('lang') || DEFAULT_LANG}`,
+    workUrl: (id) => `obra-${encodeURIComponent(id)}.html?lang=${currentLang || document.documentElement.getAttribute('lang') || DEFAULT_LANG}`,
     setLanguage,
   };
 

@@ -3,8 +3,9 @@
  * galería, fanfics y capítulos, y muestra resultados mientras se escribe.
  */
 (function () {
-  const PRODUCTS_URL = 'data/products.json';
-  const GALLERY_URL = 'data/galeria.json';
+  const ROOT = document.documentElement.getAttribute('data-root') || '';
+  const PRODUCTS_URL = ROOT + 'data/products.json';
+  const GALLERY_URL = ROOT + 'data/galeria.json';
   const DEBOUNCE_MS = 120;
   const MAX_RESULTS = 10;
 
@@ -111,7 +112,7 @@
         title: t.name,
         body: [t.short, t.description, t.customization].filter(Boolean).join('\n'),
         image: cover ? `${cover}-thumb.jpg` : '',
-        url: `producto.html?id=${encodeURIComponent(p.id)}`,
+        url: window.JIC_I18N.productUrl(p.id),
       }));
     });
 
@@ -125,7 +126,7 @@
         title: w.title || id,
         body: w.description || '',
         image: (galleryImages[id] && galleryImages[id][0]) || '',
-        url: `obra.html?id=${encodeURIComponent(id)}`,
+        url: window.JIC_I18N.workUrl(id),
       }));
     });
 
@@ -138,7 +139,7 @@
         type: 'fanfic',
         title,
         body: [t.summary || story.summary, (story.tags || []).join(' ')].join('\n'),
-        url: (story.chapters || []).length ? `fanfic-${encodeURIComponent(id)}-1.html` : 'fanfics.html',
+        url: (story.chapters || []).length ? `fanfic-${encodeURIComponent(id)}-1.html` : ROOT + 'fanfics.html',
       }));
       (story.chapters || []).forEach((ch, i) => {
         out.push(makeEntry({

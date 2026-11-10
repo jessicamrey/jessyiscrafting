@@ -8,7 +8,7 @@
   let currentWork = null;
 
   function getIdFromUrl() {
-    return new URLSearchParams(window.location.search).get('id');
+    return new URLSearchParams(window.location.search).get('id') || document.body.dataset.workId;
   }
 
   // Clave i18n del overlay de cada tarjeta de galeria.html.
@@ -78,7 +78,7 @@
     const title = captionFor(dict, currentWork.id) || t.title || currentWork.id;
 
     const seo = window.JIC_SEO;
-    const pageUrl = `obra.html?id=${encodeURIComponent(currentWork.id)}`;
+    const pageUrl = document.body.dataset.workPage || `obra.html?id=${encodeURIComponent(currentWork.id)}`;
     seo.setPageMeta({
       title: `${title} · JessyIsCrafting`,
       description: t.description,
@@ -117,7 +117,7 @@
   function setBackLink(id) {
     const back = document.getElementById('workBack');
     if (!back) return;
-    fetch('data/products.json')
+    fetch((document.documentElement.getAttribute('data-root') || '') + 'data/products.json')
       .then((res) => res.json())
       .then((products) => {
         const item = products.find((p) => p.id === id);
@@ -128,7 +128,7 @@
 
   function init() {
     const id = getIdFromUrl();
-    fetch('data/galeria.json')
+    fetch((document.documentElement.getAttribute('data-root') || '') + 'data/galeria.json')
       .then((res) => res.json())
       .then((data) => {
         works = data;
