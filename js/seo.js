@@ -37,7 +37,7 @@
   function localizedUrl(url, lang) {
     const source = new URL(url, SITE_URL);
     const file = source.pathname.split('/').pop() || 'index.html';
-    const out = new URL(SITE_URL + (lang === 'en' ? '' : lang + '/') + (file === 'index.html' ? '' : file));
+    const out = new URL(SITE_URL + (lang === 'en' ? '' : lang + '/') + file);
     source.searchParams.forEach((value, key) => {
       if (key !== 'lang') out.searchParams.append(key, value);
     });
