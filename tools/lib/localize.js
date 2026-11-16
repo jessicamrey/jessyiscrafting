@@ -17,7 +17,8 @@ function rootPrefixFor(lang) {
 }
 
 function localizedUrl(file, lang) {
-  return `${SITE_URL}${folderFor(lang)}${file}`;
+  // La home se publica en la URL limpia (/, /es/, /de/) para que coincida con la canónica elegida por Google.
+  return `${SITE_URL}${folderFor(lang)}${file === 'index.html' ? '' : file}`;
 }
 
 // Etiquetas <html> con los atributos que usa i18n.js.
