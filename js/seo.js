@@ -36,8 +36,15 @@
   // URL pública de una página en un idioma: inglés en la raíz, es/ y de/ en su carpeta.
   function localizedUrl(url, lang) {
     const source = new URL(url, SITE_URL);
-    const file = source.pathname.split('/').pop() || 'index.html';
-    const out = new URL(SITE_URL + (lang === 'en' ? '' : lang + '/') + file);
+    const segments = source.pathname.split('/').filter(Boolean);
+    if (LANGS.indexOf(segments[0]) > -1) segments.shift();
+    if (segments[segments.length - 1] === 'index.html') {
+      segments.pop();
+    } else if (segments.length) {
+      segments[segments.length - 1] = segments[segments.length - 1].replace(/\.html$/i, '');
+    }
+    const path = (lang === 'en' ? [] : [lang]).concat(segments).join('/');
+    const out = new URL(path, SITE_URL);
     source.searchParams.forEach((value, key) => {
       if (key !== 'lang') out.searchParams.append(key, value);
     });
