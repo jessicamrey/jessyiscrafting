@@ -64,10 +64,13 @@
     if (!container) return;
     container.classList.toggle('work-images--compact', !!work.compact);
     container.innerHTML = work.images
-      .map((src) => `
+      .map((src) => {
+        const image = window.JIC_I18N.assetUrl(src);
+        return `
         <figure class="work-images__item">
-          <img src="${src}" alt="${title}" loading="lazy" data-lightbox="${src}">
-        </figure>`)
+          <img src="${image}" alt="${title}" loading="lazy" data-lightbox="${image}">
+        </figure>`;
+      })
       .join('');
   }
 

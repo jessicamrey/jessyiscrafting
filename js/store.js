@@ -20,13 +20,14 @@
     const t = dict.products[product.id] || {};
     const cat = dict.categories[product.category] || {};
     const img = product.images[0];
+    const image = window.JIC_I18N.assetUrl(img);
     const href = window.JIC_I18N.productUrl(product.id);
     return `
       <article class="product-card">
         <a class="product-card__media" href="${href}">
           <picture>
-            <source srcset="${img}-thumb.webp" type="image/webp">
-            <img src="${img}-thumb.jpg" alt="${t.name || ''}" loading="lazy" width="640" height="800">
+            <source srcset="${image}-thumb.webp" type="image/webp">
+            <img src="${image}-thumb.jpg" alt="${t.name || ''}" loading="lazy" width="640" height="800">
           </picture>
           ${product.customizable ? `<span class="badge badge--gold">${dict.common.customizable}</span>` : ''}
         </a>

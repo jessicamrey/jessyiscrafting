@@ -138,6 +138,7 @@
     getDict: () => currentDict,
     getLang: () => currentLang,
     t: (key) => resolveKey(currentDict || {}, key),
+    assetUrl: (path) => `${rootPrefix()}${path}`,
     productUrl: (id) => `producto-${encodeURIComponent(id)}.html?lang=${currentLang || document.documentElement.getAttribute('lang') || DEFAULT_LANG}`,
     workUrl: (id) => `obra-${encodeURIComponent(id)}.html?lang=${currentLang || document.documentElement.getAttribute('lang') || DEFAULT_LANG}`,
     setLanguage,

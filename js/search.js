@@ -217,7 +217,7 @@
         return `
           <li role="option" id="siteSearchOpt${i}" class="site-search__item${i === activeIndex ? ' is-active' : ''}" aria-selected="${i === activeIndex}">
             <a href="${escapeHtml(r.url)}" tabindex="-1">
-              ${r.image ? `<img class="site-search__thumb" src="${escapeHtml(r.image)}" alt="" loading="lazy">` : ''}
+                ${r.image ? `<img class="site-search__thumb" src="${escapeHtml(window.JIC_I18N.assetUrl(r.image))}" alt="" loading="lazy">` : ''}
               <span class="site-search__text">
                 <span class="site-search__type">${escapeHtml(typeLabel)}${context}</span>
                 <span class="site-search__title">${highlight(r.title, terms)}</span>

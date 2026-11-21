@@ -178,6 +178,7 @@
       const t = dict.products[p.id] || {};
       const cat = dict.categories[p.category] || {};
       const img = p.images[0];
+      const image = window.JIC_I18N.assetUrl(img);
       const amount = Number.isInteger(p.price) ? p.price : p.price.toFixed(2);
       const prefix = p.priceFrom ? `<span class="price__from">${dict.common.from}</span>` : '';
       const href = window.JIC_I18N.productUrl(p.id);
@@ -185,8 +186,8 @@
         <article class="product-card">
           <a class="product-card__media" href="${href}">
             <picture>
-              <source srcset="${img}-thumb.webp" type="image/webp">
-              <img src="${img}-thumb.jpg" alt="${t.name || ''}" loading="lazy" width="640" height="800">
+              <source srcset="${image}-thumb.webp" type="image/webp">
+              <img src="${image}-thumb.jpg" alt="${t.name || ''}" loading="lazy" width="640" height="800">
             </picture>
             <span class="badge">${cat.name || ''}</span>
           </a>

@@ -143,10 +143,11 @@
     const name = t.name || item.id;
     const priceLabel = product ? formatPrice(product, dict, itemPrice(product, item)) : '';
     const img = product ? product.images[0] : '';
+    const image = img && window.JIC_I18N.assetUrl(img);
     return `
       <div class="cart-item" data-index="${index}">
         <div class="cart-item__media">
-          ${img ? `<picture><source srcset="${img}-thumb.webp" type="image/webp"><img src="${img}-thumb.jpg" alt="${name}"></picture>` : ''}
+          ${image ? `<picture><source srcset="${image}-thumb.webp" type="image/webp"><img src="${image}-thumb.jpg" alt="${name}"></picture>` : ''}
         </div>
         <div class="cart-item__info">
           <span class="cart-item__name">${name}</span>
