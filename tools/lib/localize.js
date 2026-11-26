@@ -16,8 +16,14 @@ function rootPrefixFor(lang) {
   return lang === DEFAULT_LANG ? '' : '../';
 }
 
+// Ruta sin SITE_URL, sin .html (igual que sitemap.xml); index.html es la carpeta.
+function pathFor(file, lang) {
+  const page = file === 'index.html' ? '' : file.replace(/\.html$/, '');
+  return `${folderFor(lang)}${page}`;
+}
+
 function localizedUrl(file, lang) {
-  return `${SITE_URL}${folderFor(lang)}${file}`;
+  return `${SITE_URL}${pathFor(file, lang)}`;
 }
 
 // Etiquetas <html> con los atributos que usa i18n.js.
@@ -66,6 +72,7 @@ module.exports = {
   LOCALES,
   OG_LOCALE,
   folderFor,
+  pathFor,
   rootPrefixFor,
   localizedUrl,
   htmlTag,

@@ -22,7 +22,7 @@ const AVAILABILITY = {
   out_of_stock: { key: 'availabilityOutOfStock', schema: 'https://schema.org/OutOfStock', cls: 'is-out-of-stock' }
 };
 
-const { LOCALES, OG_LOCALE, folderFor, localizedUrl, htmlTag, bodyAttrs, headLinks, rewriteAssetPaths, rootPrefixFor, translateAriaLabels } = require('./lib/localize');
+const { LOCALES, OG_LOCALE, folderFor, pathFor, localizedUrl, htmlTag, bodyAttrs, headLinks, rewriteAssetPaths, rootPrefixFor, translateAriaLabels } = require('./lib/localize');
 
 function esc(value) {
   return String(value)
@@ -155,7 +155,7 @@ function renderPage(product, dict, lang) {
   const description = cleanText(t.short || t.description, 160);
   const title = `${name} · JessyIsCrafting`;
   const availability = AVAILABILITY[product.availability];
-  const ld = JSON.stringify(buildJsonLd(product, t, cat, folderFor(lang) + file, image)).replace(/</g, '\\u003c');
+  const ld = JSON.stringify(buildJsonLd(product, t, cat, pathFor(file, lang), image)).replace(/</g, '\\u003c');
 
   return rewriteAssetPaths(`<!DOCTYPE html>
 ${htmlTag(lang)}

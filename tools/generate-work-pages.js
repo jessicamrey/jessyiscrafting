@@ -9,7 +9,7 @@ const path = require('path');
 
 const ROOT = path.join(__dirname, '..');
 const SITE_URL = 'https://jessyiscrafting.com/';
-const { LOCALES, OG_LOCALE, folderFor, localizedUrl, htmlTag, bodyAttrs, headLinks, rewriteAssetPaths, rootPrefixFor, translateAriaLabels } = require('./lib/localize');
+const { LOCALES, OG_LOCALE, folderFor, pathFor, localizedUrl, htmlTag, bodyAttrs, headLinks, rewriteAssetPaths, rootPrefixFor, translateAriaLabels } = require('./lib/localize');
 
 // Mantener sincronizado con CAPTION_KEYS de js/obra.js.
 const CAPTION_KEYS = {
@@ -95,7 +95,7 @@ function renderPage(work, dict, products, lang) {
     name: title,
     description: cleanText(t.description),
     image: SITE_URL + image,
-    url: SITE_URL + folderFor(lang) + file,
+    url: SITE_URL + pathFor(file, lang),
     creator: { '@type': 'Organization', name: 'JessyIsCrafting', url: SITE_URL }
   }).replace(/</g, '\\u003c');
 
