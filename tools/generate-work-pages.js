@@ -95,7 +95,7 @@ function renderPage(work, dict, products, lang) {
     name: title,
     description: cleanText(t.description),
     image: SITE_URL + image,
-    url: SITE_URL + folderFor(lang) + file.replace(/\.html$/, ''),
+    url: SITE_URL + folderFor(lang) + file,
     creator: { '@type': 'Organization', name: 'JessyIsCrafting', url: SITE_URL }
   }).replace(/</g, '\\u003c');
 

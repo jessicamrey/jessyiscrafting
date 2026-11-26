@@ -16,10 +16,8 @@ function rootPrefixFor(lang) {
   return lang === DEFAULT_LANG ? '' : '../';
 }
 
-// URLs limpias (sin .html), igual que sitemap.xml; index.html corresponde a la carpeta.
 function localizedUrl(file, lang) {
-  const page = file === 'index.html' ? '' : file.replace(/\.html$/, '');
-  return `${SITE_URL}${folderFor(lang)}${page}`;
+  return `${SITE_URL}${folderFor(lang)}${file}`;
 }
 
 // Etiquetas <html> con los atributos que usa i18n.js.
