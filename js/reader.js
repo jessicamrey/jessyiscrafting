@@ -118,7 +118,7 @@
       isPartOf: {
         '@type': 'CreativeWorkSeries',
         name: story.title,
-        url: seo.absoluteUrl('fanfics.html')
+        url: seo.absoluteUrl('fanfics')
       }
     });
     document.getElementById('crumbTitle').textContent = story.title;
