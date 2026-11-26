@@ -514,13 +514,13 @@
     "figura-reencuentro": {
       "name": "El reencuentro",
       "short": "Figura de resina del abrazo de Hans y Henry en su reencuentro, de 16 cm de alto, con base incluida.",
-      "description": "Figura en resina de 16 cm de alto con base incluida. Representación del abrazo entre Hans y Henry durante el rescate en Malesov. Sus expresiones de alivio son realmente tiernas.",
+      "description": "Figura en resina de 16 cm de alto con base incluida. Representación del abrazo entre Hans y Henry durante el rescate en Malesov. Sus expresiones de alivio son realmente tiernas. Se vende pintada a mano. Para piezas sin pintar, consultar precio.",
       "customization": "Puedes escoger el color del gambesón y de los pantalones de Henry o de Hans, pero no la forma de la figura."
     },
     "figura-dobby": {
       "name": "«Dobby», de Harry Potter",
       "short": "Figura de Dobby de resina con su calcetín, de 18 cm de alto, pintada a mano con tonos naturales y acabado mate.",
-      "description": "Figura en resina del elfo Dobby, de 18 cm de altura. Colores naturales y acabo en mate, con brillos en los ojos y en la chispa de magia."
+      "description": "Figura en resina del elfo Dobby, de 18 cm de altura. Colores naturales y acabo en mate, con brillos en los ojos y en la chispa de magia. Se vende pintada a mano. Para piezas sin pintar, consultar precio."
     },
     "oleo-minas-tirith": {
       "name": "Óleo «La Ciudadela»",
@@ -573,35 +573,35 @@
       "name": "Sir Henry",
       "sizes": { "10cm": "10 cm (miniatura)", "15cm": "15 cm (estándar)", "18cm": "18 cm (grande)" },
       "short": "Figura de Henry como caballero, pintada a mano con detalles de naturaleza.",
-      "description": "Figura de Henry como caballero, pintada a mano con detalles de naturaleza.",
+      "description": "Figura de Henry como caballero, pintada a mano con detalles de naturaleza. Se vende pintada a mano. Para piezas sin pintar, consultar precio.",
       "customization": "Puedo pintarla con los colores que desees. Si prefieres la brigantina y el gambesón de otro color, házmelo saber en el recuadro de personalización."
     },
     "diorama-jinete-heraldico": {
       "name": "Henry a caballo",
       "short": "Henry montado a caballo con escudo y espada, de 23 cm de alto.",
-      "description": "Pieza inspirada en la Collector's Edition, mostrando a Henry sobre un caballo. En este caso, decidí pintarlo con los colores de Pebbles, mi querido caballo del juego. Los arreos son de los colores de Leipa, así como el escudo, y Henry amenaza con la espada de Sir Radzig. Con detalles de naturaleza, se trata de una pieza equilibrada de 23 cm de alto, grande y perfecta para decorar tu hogar.",
+      "description": "Pieza inspirada en la Collector's Edition, mostrando a Henry sobre un caballo. En este caso, decidí pintarlo con los colores de Pebbles, mi querido caballo del juego. Los arreos son de los colores de Leipa, así como el escudo, y Henry amenaza con la espada de Sir Radzig. Con detalles de naturaleza, se trata de una pieza equilibrada de 23 cm de alto, grande y perfecta para decorar tu hogar. Se vende pintada a mano. Para piezas sin pintar, consultar precio.",
       "customization": "Puedo pintarla con los colores que desees: el color del caballo y de los arreos, así como el escudo y el gambesón de Henry. Házmelo saber en el recuadro de personalización."
     },
     "figura-lune": {
       "name": "Figura «Lune»",
       "short": "Figura de Lune de Expedition33 con sus efectos elementales.",
-      "description": "Figura detallada de Lune del videojuego Expedition33. Rodeada por sus efectos elementales, se trata de una pieza compleja pero de gran belleza. 21 cm de alto.",
+      "description": "Figura detallada de Lune del videojuego Expedition33. Rodeada por sus efectos elementales, se trata de una pieza compleja pero de gran belleza. 21 cm de alto. Se vende pintada a mano. Para piezas sin pintar, consultar precio.",
       "customization": "Pintura de tu propia figura (resina o miniatura de peana) con los efectos y colores que prefieras."
     },
     "figura-kaelthas": {
       "name": "Kael'thas",
       "short": "Figura de Kael'thas a escala 1/10, pintada a mano con mucho detalle.",
-      "description": "Kael'thas es un personaje clave del universo de Warcraft, conocido por ser el último príncipe de la dinastía Caminante del Sol, un poderoso mago del Kirin Tor y el líder de los elfos de sangre tras la caída de su reino. Figura a escala 1/10 pintada a mano detalladamente y con mucho cariño."
+      "description": "Kael'thas es un personaje clave del universo de Warcraft, conocido por ser el último príncipe de la dinastía Caminante del Sol, un poderoso mago del Kirin Tor y el líder de los elfos de sangre tras la caída de su reino. Figura a escala 1/10 pintada a mano detalladamente y con mucho cariño. Se vende pintada a mano. Para piezas sin pintar, consultar precio."
     },
     "figura-renoir": {
       "name": "Figura «Renoir»",
       "short": "Figura de Renoir de Expedition33, con su traje manchado de pintura y acabado mate.",
-      "description": "Figura de Renoir del videojuego Expedition33 con su clásico traje negro manchado de pintura, sobre pétalos caídos. Figura de 19 cm."
+      "description": "Figura de Renoir del videojuego Expedition33 con su clásico traje negro manchado de pintura, sobre pétalos caídos. Figura de 19 cm. Se vende pintada a mano. Para piezas sin pintar, consultar precio."
     },
     "diorama-brutus": {
       "name": "«Brutus», de Julius Caesar",
       "short": "Pequeño diorama arquitectónico pintado a mano, con columnas y detalles dorados.",
-      "description": "Una pieza que diseñé a partir de la interpretación de Tom McKay en la obra \"Julius Caesar\" en el teatro Shakespeare's Globe de Londres. La base sobre la que está el personaje de Brutus está directamente inspirada en el escenario de este teatro.",
+      "description": "Una pieza que diseñé a partir de la interpretación de Tom McKay en la obra \"Julius Caesar\" en el teatro Shakespeare's Globe de Londres. La base sobre la que está el personaje de Brutus está directamente inspirada en el escenario de este teatro. Se vende pintada a mano. Para piezas sin pintar, consultar precio.",
       "finishLabel": "Acabado",
       "finishes": { "brillo": "Brillo", "mate": "Mate" },
       "customization": "No se pueden elegir los colores de esta pieza, únicamente el acabado."

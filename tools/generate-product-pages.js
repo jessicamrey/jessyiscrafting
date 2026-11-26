@@ -155,7 +155,7 @@ function renderPage(product, dict, lang) {
   const description = cleanText(t.short || t.description, 160);
   const title = `${name} · JessyIsCrafting`;
   const availability = AVAILABILITY[product.availability];
-  const ld = JSON.stringify(buildJsonLd(product, t, cat, folderFor(lang) + file, image)).replace(/</g, '\\u003c');
+  const ld = JSON.stringify(buildJsonLd(product, t, cat, folderFor(lang) + file.replace(/\.html$/, ''), image)).replace(/</g, '\\u003c');
 
   return rewriteAssetPaths(`<!DOCTYPE html>
 ${htmlTag(lang)}
