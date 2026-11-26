@@ -166,6 +166,7 @@
       "renoir": { "title": "Renoir", "description": "Renoir figure in his classic outfit, stained with golden brushstrokes. The seams are painted silver, catching the light, and the base is meant to simulate a moss-covered ground with fallen red leaves." },
       "diorama-brutus": { "title": "Brutus Diorama", "description": "I loved Tom McKay's performance in the play Julius Caesar so much that I had to make a figure to commemorate it.\n\nI designed the base from scratch, inspired by the stage facade of Shakespeare's Globe, so I could literally put the character of Brutus on the stage.\n\nThe pose is taken directly from the play, one of my favourites, where the elements of the period costume are perfectly visible. Beautiful performance." },
       "figura-reencuentro": { "title": "The Reunion", "description": "This moment of reunion, one of my favourite scenes from Kingdom Come: Deliverance 2. After countless ordeals, Henry finally manages to rescue Hans, and this embrace is a very special moment.\n\nIt is the first time Hans throws himself into Henry's arms, and their expressions say it all. Moving from genuine relief to the fullest expression of joy, ending in a heartfelt hug." },
+      "figura-kaelthas": { "title": "Kael'thas", "description": "Kael'thas is a key character in the Warcraft universe, known as the last prince of the Sunstrider dynasty, a powerful mage of the Kirin Tor and the leader of the blood elves after the fall of his kingdom. 1/10 scale figure, hand-painted in great detail and with a lot of care." },
       "figura-dobby": { "title": "Dobby", "description": "Hand-painted Dobby figure with his sock. Skin and cloth tones are built up in thin layers so the character keeps its expression and mischievous air." }
     }
   },
@@ -204,6 +205,7 @@
       "brutusCast": "Brutus, portrayed by Tom McKay",
       "reencuentro": "Hans and Henry's reunion",
       "dobbyLabel": "Dobby",
+      "kaelthasLabel": "Kael'thas",
       "tableroFarkle": "Hand-painted Farkle board",
       "setFarkleSet": "Farkle set",
       "miniFarkleLabel": "MiniFarkle",
@@ -585,6 +587,11 @@
       "short": "Lune figure from Expedition 33 with her elemental effects.",
       "description": "Detailed figure of Lune from the video game Expedition 33. Surrounded by her elemental effects, this is a complex but very beautiful piece. 21 cm tall.",
       "customization": "Painting service for your own figure (resin or based miniature) with the effects and colours you prefer."
+    },
+    "figura-kaelthas": {
+      "name": "Kael'thas",
+      "short": "1/10 scale figure of Kael'thas, hand-painted in great detail.",
+      "description": "Kael'thas is a key character in the Warcraft universe, known as the last prince of the Sunstrider dynasty, a powerful mage of the Kirin Tor and the leader of the blood elves after the fall of his kingdom. 1/10 scale figure, hand-painted in great detail and with a lot of care."
     },
     "figura-renoir": {
       "name": "\"Renoir\" Figure",
