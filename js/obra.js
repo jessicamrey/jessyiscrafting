@@ -8,7 +8,7 @@
   let currentWork = null;
 
   function getIdFromUrl() {
-    return new URLSearchParams(window.location.search).get('id');
+    return new URLSearchParams(window.location.search).get('id') || document.body.dataset.workId;
   }
 
   // Clave i18n del overlay de cada tarjeta de galeria.html.
@@ -20,6 +20,7 @@
     'diorama-brutus': 'brutusCast',
     'figura-reencuentro': 'reencuentro',
     'figura-dobby': 'dobbyLabel',
+    'figura-kaelthas': 'kaelthasLabel',
     'set-farkle-blason': 'tableroFarkle',
     'set-farkle': 'setFarkleSet',
     'mini-farkle-viajero': 'miniFarkleLabel',
@@ -64,10 +65,13 @@
     if (!container) return;
     container.classList.toggle('work-images--compact', !!work.compact);
     container.innerHTML = work.images
-      .map((src) => `
+      .map((src) => {
+        const image = window.JIC_I18N.assetUrl(src);
+        return `
         <figure class="work-images__item">
-          <img src="${src}" alt="${title}" loading="lazy" data-lightbox="${src}">
-        </figure>`)
+          <img src="${image}" alt="${title}" loading="lazy" data-lightbox="${image}">
+        </figure>`;
+      })
       .join('');
   }
 
@@ -78,7 +82,7 @@
     const title = captionFor(dict, currentWork.id) || t.title || currentWork.id;
 
     const seo = window.JIC_SEO;
-    const pageUrl = `obra.html?id=${encodeURIComponent(currentWork.id)}`;
+    const pageUrl = document.body.dataset.workPage || `obra.html?id=${encodeURIComponent(currentWork.id)}`;
     seo.setPageMeta({
       title: `${title} · JessyIsCrafting`,
       description: t.description,
@@ -117,7 +121,7 @@
   function setBackLink(id) {
     const back = document.getElementById('workBack');
     if (!back) return;
-    fetch('data/products.json')
+    fetch((document.documentElement.getAttribute('data-root') || '') + 'data/products.json')
       .then((res) => res.json())
       .then((products) => {
         const item = products.find((p) => p.id === id);
@@ -128,7 +132,7 @@
 
   function init() {
     const id = getIdFromUrl();
-    fetch('data/galeria.json')
+    fetch((document.documentElement.getAttribute('data-root') || '') + 'data/galeria.json')
       .then((res) => res.json())
       .then((data) => {
         works = data;

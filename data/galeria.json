@@ -203,5 +203,15 @@
       "assets/img/figuras/reencuentro-4.jpg",
       "assets/img/figuras/reencuentro-5.jpg"
     ]
+  },
+  {
+    "id": "figura-kaelthas",
+    "images": [
+      "assets/img/figuras/kaelthas-5.jpg",
+      "assets/img/figuras/kaelthas-1.jpg",
+      "assets/img/figuras/kaelthas-2.jpg",
+      "assets/img/figuras/kaelthas-3.jpg",
+      "assets/img/figuras/kaelthas-4.jpg"
+    ]
   }
 ]
