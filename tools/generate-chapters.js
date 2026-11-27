@@ -17,8 +17,10 @@ const ROOT = path.resolve(__dirname, '..');
 const SITE_URL = 'https://jessyiscrafting.com/';
 const DRY_RUN = process.argv.includes('--dry-run');
 
-const numberFormat = new Intl.NumberFormat('es-ES');
-const dateFormat = new Intl.DateTimeFormat('es-ES', { day: 'numeric', month: 'long', year: 'numeric' });
+const OG_IMAGE = SITE_URL + 'assets/img/figuras/caballero-henry-1.jpg';
+
+const numberFormat = new Intl.NumberFormat('en-US');
+const dateFormat = new Intl.DateTimeFormat('en-US', { day: 'numeric', month: 'long', year: 'numeric' });
 
 function loadFanfics() {
   const source = fs.readFileSync(path.join(ROOT, 'js', 'fanfic-data.js'), 'utf8');
@@ -94,7 +96,7 @@ function pageHtml(story, index) {
   const words = chapterWords(ch);
   const file = chapterFile(story.id, n);
   const pageUrl = SITE_URL + file;
-  const pageTitle = story.title + ' · Capítulo ' + n + ' · JessyIsCrafting';
+  const pageTitle = story.title + ' · Chapter ' + n + ' · JessyIsCrafting';
   const summary = escapeHtml(story.summary);
   const title = escapeHtml(story.title);
 
@@ -113,12 +115,12 @@ function pageHtml(story, index) {
   const jsonLdText = JSON.stringify(jsonLd, null, 2).replace(/</g, '\\u003c');
 
   const metaRows = [
-    ['Estado', story.status],
-    ['Capítulos', String(total)],
-    ['Palabras', numberFormat.format(totalWords)],
-    ['Lectura aprox.', readMinutes(totalWords) + ' min'],
-    ['Publicado', formatDate(chapters[0].date)],
-    ['Actualizado', formatDate(chapters[total - 1].date)]
+    ['Status', story.status],
+    ['Chapters', String(total)],
+    ['Words', numberFormat.format(totalWords)],
+    ['Reading time', readMinutes(totalWords) + ' min'],
+    ['Published', formatDate(chapters[0].date)],
+    ['Updated', formatDate(chapters[total - 1].date)]
   ].map((row) => '      <dt>' + escapeHtml(row[0]) + '</dt><dd>' + escapeHtml(row[1]) + '</dd>').join('\n');
 
   const toc = chapters.map((c, i) => {
@@ -136,27 +138,29 @@ function pageHtml(story, index) {
   const tags = story.tags.map((tag) => '      <span class="reader-tag">' + escapeHtml(tag) + '</span>').join('\n');
 
   const prev = index > 0
-    ? pagerLink(chapterFile(story.id, index), '← Capítulo anterior', false)
-    : pagerOff('← Capítulo anterior', false);
+    ? pagerLink(chapterFile(story.id, index), '← Previous chapter', false)
+    : pagerOff('← Previous chapter', false);
   const next = index < total - 1
-    ? pagerLink(chapterFile(story.id, index + 2), 'Capítulo siguiente →', true)
-    : pagerOff('Capítulo siguiente →', true);
+    ? pagerLink(chapterFile(story.id, index + 2), 'Next chapter →', true)
+    : pagerOff('Next chapter →', true);
 
   return `<!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>${escapeHtml(pageTitle)}</title>
 <meta name="description" content="${summary}">
 <link rel="canonical" href="${pageUrl}">
+<meta property="og:image" content="${OG_IMAGE}">
+<meta name="twitter:card" content="summary_large_image">
 <meta property="og:site_name" content="JessyIsCrafting">
 <meta property="og:type" content="article">
-<meta property="og:locale" content="es_ES">
+<meta property="og:locale" content="en_US">
 <meta property="og:title" content="${escapeHtml(pageTitle)}">
 <meta property="og:description" content="${summary}">
 <meta property="og:url" content="${pageUrl}">
-<link rel="icon" type="image/png" href="assets/img/brand/favicon.png">
+<link rel="icon" href="favicon.ico" sizes="any">
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#37472f">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -169,7 +173,7 @@ ${jsonLdText}
 </script>
 </head>
 <body class="reader-page" data-story="${escapeHtml(story.id)}" data-chapter="${n}" data-prerendered>
-<a href="#main" class="skip-link">Saltar al contenido</a>
+<a href="#main" class="skip-link">Skip to content</a>
 <div data-include="header"></div>
 
 <div class="reader-progress" id="readerProgress" aria-hidden="true"></div>
@@ -177,30 +181,30 @@ ${jsonLdText}
 <div class="reader-toolbar">
   <div class="container reader-toolbar__inner">
     <div class="reader-toolbar__top">
-      <nav class="reader-crumbs" aria-label="Ruta de navegación">
+      <nav class="reader-crumbs" aria-label="Breadcrumb">
         <a href="fanfics.html">Fanfics</a> <span aria-hidden="true">/</span> <span id="crumbTitle">${title}</span>
       </nav>
-      <a href="fanfics.html" class="reader-back">← Volver a fanfics</a>
+      <a href="fanfics.html" class="reader-back">← Back to fanfics</a>
     </div>
     <div class="reader-tools">
       <div id="chapterPick">
-        <select class="reader-select" aria-label="Seleccionar capítulo">
+        <select class="reader-select" aria-label="Select chapter">
 ${options}
         </select>
       </div>
-      <div class="reader-seg" role="group" aria-label="Tema de lectura" id="themeSeg">
-        <button type="button" data-theme="light" aria-pressed="true">Claro</button>
-        <button type="button" data-theme="dark" aria-pressed="false">Oscuro</button>
+      <div class="reader-seg" role="group" aria-label="Reading theme" id="themeSeg">
+        <button type="button" data-theme="light" aria-pressed="true">Light</button>
+        <button type="button" data-theme="dark" aria-pressed="false">Dark</button>
       </div>
-      <div class="reader-seg" role="group" aria-label="Tamaño de letra">
-        <button type="button" id="sizeDown" aria-label="Reducir letra">A−</button>
+      <div class="reader-seg" role="group" aria-label="Font size">
+        <button type="button" id="sizeDown" aria-label="Decrease text size">A−</button>
         <span class="reader-seg__value" id="sizeValue">18 px</span>
-        <button type="button" id="sizeUp" aria-label="Aumentar letra">A+</button>
+        <button type="button" id="sizeUp" aria-label="Increase text size">A+</button>
       </div>
-      <button type="button" class="btn btn--outline btn--sm" id="shareBtn">Compartir</button>
+      <button type="button" class="btn btn--outline btn--sm" id="shareBtn">Share</button>
       <span class="reader-seg__value" id="shareStatus" aria-live="polite"></span>
-      <button type="button" class="btn btn--outline btn--sm" id="dlPdf">Descargar PDF</button>
-      <button type="button" class="btn btn--outline btn--sm" id="dlEpub">Descargar EPUB</button>
+      <button type="button" class="btn btn--outline btn--sm" id="dlPdf">Download PDF</button>
+      <button type="button" class="btn btn--outline btn--sm" id="dlEpub">Download EPUB</button>
     </div>
   </div>
 </div>
@@ -213,7 +217,7 @@ ${options}
     <dl class="reader-meta" id="sideMeta">
 ${metaRows}
     </dl>
-    <h3>Índice de capítulos</h3>
+    <h3>Chapter index</h3>
     <ol class="reader-toc" id="toc">
 ${toc}
     </ol>
@@ -224,12 +228,12 @@ ${toc}
       <div class="reader-tags" id="tags">
 ${tags}
       </div>
-      <p class="reader-kicker" id="chapterKicker">Capítulo ${n} de ${total}</p>
+      <p class="reader-kicker" id="chapterKicker">Chapter ${n} of ${total}</p>
       <h1 id="chapterTitle">${escapeHtml(ch.title)}</h1>
       <div class="reader-byline" id="byline">
-        <span>Publicado el ${escapeHtml(formatDate(ch.date))}</span>
-        <span>${numberFormat.format(words)} palabras</span>
-        <span>Lectura aprox. ${readMinutes(words)} min</span>
+        <span>Published ${escapeHtml(formatDate(ch.date))}</span>
+        <span>${numberFormat.format(words)} words</span>
+        <span>Reading time ${readMinutes(words)} min</span>
       </div>
     </header>
 
@@ -237,7 +241,7 @@ ${tags}
 ${bodyHtml(ch)}
     </div>
 
-    <nav class="reader-pager" id="pager" aria-label="Navegación entre capítulos">
+    <nav class="reader-pager" id="pager" aria-label="Chapter navigation">
 ${prev}
 ${next}
     </nav>

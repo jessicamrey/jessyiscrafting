@@ -65,13 +65,10 @@
     if (!container) return;
     container.classList.toggle('work-images--compact', !!work.compact);
     container.innerHTML = work.images
-      .map((src) => {
-        const image = window.JIC_I18N.assetUrl(src);
-        return `
+      .map((src) => `
         <figure class="work-images__item">
-          <img src="${image}" alt="${title}" loading="lazy" data-lightbox="${image}">
-        </figure>`;
-      })
+          <img src="${src}" alt="${title}" loading="lazy" data-lightbox="${src}">
+        </figure>`)
       .join('');
   }
 
@@ -121,7 +118,7 @@
   function setBackLink(id) {
     const back = document.getElementById('workBack');
     if (!back) return;
-    fetch((document.documentElement.getAttribute('data-root') || '') + 'data/products.json')
+    fetch('data/products.json')
       .then((res) => res.json())
       .then((products) => {
         const item = products.find((p) => p.id === id);
@@ -132,7 +129,7 @@
 
   function init() {
     const id = getIdFromUrl();
-    fetch((document.documentElement.getAttribute('data-root') || '') + 'data/galeria.json')
+    fetch('data/galeria.json')
       .then((res) => res.json())
       .then((data) => {
         works = data;

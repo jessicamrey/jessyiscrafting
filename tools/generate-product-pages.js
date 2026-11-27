@@ -22,7 +22,7 @@ const AVAILABILITY = {
   out_of_stock: { key: 'availabilityOutOfStock', schema: 'https://schema.org/OutOfStock', cls: 'is-out-of-stock' }
 };
 
-const { LOCALES, OG_LOCALE, folderFor, pathFor, localizedUrl, htmlTag, bodyAttrs, headLinks, rewriteAssetPaths, rootPrefixFor, translateAriaLabels } = require('./lib/localize');
+const LANGS = ['es', 'en', 'de'];
 
 function esc(value) {
   return String(value)
@@ -33,9 +33,7 @@ function esc(value) {
 }
 
 function cleanText(text, max) {
-  const clean = String(text || '').replace(/\s+/g, ' ').trim();
-  const limit = max || 160;
-  return clean.length <= limit ? clean : clean.slice(0, limit).replace(/\s+\S*$/, '');
+  return String(text || '').replace(/\s+/g, ' ').trim().slice(0, max || 160);
 }
 
 function readJson(relativePath) {
@@ -144,7 +142,16 @@ function descriptionHtml(text) {
   return out.join('\n        ');
 }
 
-function renderPage(product, dict, lang) {
+function hreflangLinks(file) {
+  const lines = LANGS.map((lang) => {
+    const href = lang === 'en' ? SITE_URL + file : `${SITE_URL}${file}?lang=${lang}`;
+    return `<link rel="alternate" hreflang="${lang}" href="${href}">`;
+  });
+  lines.push(`<link rel="alternate" hreflang="x-default" href="${SITE_URL}${file}">`);
+  return lines.join('\n');
+}
+
+function renderPage(product, dict) {
   const id = product.id;
   const t = (dict.products && dict.products[id]) || {};
   const cat = dict.categories[product.category] || {};
@@ -155,25 +162,26 @@ function renderPage(product, dict, lang) {
   const description = cleanText(t.short || t.description, 160);
   const title = `${name} · JessyIsCrafting`;
   const availability = AVAILABILITY[product.availability];
-  const ld = JSON.stringify(buildJsonLd(product, t, cat, pathFor(file, lang), image)).replace(/</g, '\\u003c');
+  const ld = JSON.stringify(buildJsonLd(product, t, cat, file, image)).replace(/</g, '\\u003c');
 
-  return rewriteAssetPaths(`<!DOCTYPE html>
-${htmlTag(lang)}
+  return `<!DOCTYPE html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(description)}">
-${headLinks(file, lang)}
+<link rel="canonical" href="${SITE_URL}${file}">
+${hreflangLinks(file)}
 <meta property="og:site_name" content="JessyIsCrafting">
 <meta property="og:type" content="product">
-<meta property="og:locale" content="${OG_LOCALE[lang]}">
+<meta property="og:locale" content="en_US">
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(description)}">
-<meta property="og:url" content="${localizedUrl(file, lang)}">
+<meta property="og:url" content="${SITE_URL}${file}">
 <meta property="og:image" content="${SITE_URL}${image}">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" type="image/png" href="assets/img/brand/favicon.png">
+<link rel="icon" href="favicon.ico" sizes="any">
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#37472f">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -182,7 +190,7 @@ ${headLinks(file, lang)}
 <link rel="stylesheet" href="css/styles.css">
 <script type="application/ld+json" id="jsonld-product">${ld}</script>
 </head>
-<body ${bodyAttrs(lang)} data-product-id="${esc(id)}" data-product-page="${file}">
+<body data-product-id="${esc(id)}" data-product-page="${file}">
 <a href="#main" class="skip-link">Skip to content</a>
 <div data-include="header"></div>
 
@@ -230,10 +238,10 @@ ${headLinks(file, lang)}
 
           <div class="product-info__cart-actions">
             <div class="qty-stepper">
-              <button type="button" class="qty-stepper__btn" data-qty-step="-1" data-i18n-attr="aria-label:productDetail.qtyDecrease" aria-label="Decrease quantity">&minus;</button>
+              <button type="button" class="qty-stepper__btn" data-qty-step="-1" data-i18n-aria-label="productDetail.qtyDecrease" aria-label="Decrease quantity">&minus;</button>
               <label for="productQty" class="visually-hidden" data-i18n="cart.quantityLabel">Quantity</label>
               <input type="number" id="productQty" class="qty-stepper__input" min="1" value="1">
-              <button type="button" class="qty-stepper__btn" data-qty-step="1" data-i18n-attr="aria-label:productDetail.qtyIncrease" aria-label="Increase quantity">+</button>
+              <button type="button" class="qty-stepper__btn" data-qty-step="1" data-i18n-aria-label="productDetail.qtyIncrease" aria-label="Increase quantity">+</button>
             </div>
             <button type="button" class="btn btn--gold" id="addToCartBtn" data-add-to-cart="${esc(id)}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 7h12l-1 13H7L6 7Z"/><path d="M9 7V5a3 3 0 0 1 6 0v2"/></svg><span data-i18n="cart.addButton">Add to cart</span></button>
           </div>
@@ -270,22 +278,17 @@ ${headLinks(file, lang)}
 <script src="js/product.js"></script>
 </body>
 </html>
-`, rootPrefixFor(lang));
+`;
 }
 
 function main() {
   const products = readJson('data/products.json');
-  LOCALES.forEach((lang) => {
-    const dir = path.join(ROOT, folderFor(lang));
-    const dict = readJson(`i18n/${lang}.json`);
-    fs.mkdirSync(dir, { recursive: true });
-    products.forEach((product) => {
-      fs.writeFileSync(path.join(dir, `producto-${product.id}.html`), translateAriaLabels(renderPage(product, dict, lang), dict, readJson('i18n/en.json')), 'utf8');
-    });
+  const dict = readJson('i18n/en.json');
+  products.forEach((product) => {
+    const file = path.join(ROOT, `producto-${product.id}.html`);
+    fs.writeFileSync(file, renderPage(product, dict), 'utf8');
   });
-  console.log(`Páginas de producto generadas: ${products.length} x ${LOCALES.length} idiomas`);
+  console.log(`Páginas de producto generadas: ${products.length}`);
 }
 
-if (require.main === module) main();
-
-module.exports = { renderPage };
+main();
