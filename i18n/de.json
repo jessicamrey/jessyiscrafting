@@ -155,6 +155,7 @@
       "renoir": { "title": "Renoir", "description": "Renoir-Figur in seinem klassischen Kostüm, mit goldenen Pinselstrichen befleckt. Die Nähte sind silbern bemalt und fangen das Licht ein, und der Sockel soll einen Moosboden mit herabgefallenen roten Blättern nachbilden." },
       "diorama-brutus": { "title": "Brutus-Diorama", "description": "Mir hat Tom McKays Interpretation in dem Theaterstück Julius Caesar so gut gefallen, dass ich eine Figur anfertigen musste, um sie zu würdigen.\n\nDie Basis habe ich von Grund auf entworfen, inspiriert von der Bühnenfassade des Shakespeare's Globe, um die Figur des Brutus buchstäblich auf die Bühne stellen zu können.\n\nDie Pose stammt direkt aus dem Stück, einem meiner Favoriten, in dem die Elemente des historischen Kostüms perfekt zu erkennen sind. Wunderbare Interpretation." },
       "figura-reencuentro": { "title": "Das Wiedersehen", "description": "Dieser Moment des Wiedersehens ist eine meiner Lieblingsszenen aus Kingdom Come: Deliverance 2. Nach unzähligen Strapazen gelingt es Henry endlich, Hans zu retten, und diese Umarmung ist ein ganz besonderer Moment.\n\nZum ersten Mal wirft sich Hans in Henrys Arme, und ihre Gesichtsausdrücke sagen alles. Von echter Erleichterung bis zur höchsten Freude, und am Ende eine herzliche Umarmung." },
+      "figura-kaelthas": { "title": "Kael'thas", "description": "Kael'thas ist eine Schlüsselfigur des Warcraft-Universums, bekannt als der letzte Prinz der Sonnenwanderer-Dynastie, ein mächtiger Magier der Kirin Tor und der Anführer der Blutelfen nach dem Untergang seines Reiches. Figur im Maßstab 1:10, von Hand detailliert bemalt und mit viel Liebe gemacht." },
       "figura-dobby": { "title": "Dobby", "description": "Handbemalte Dobby-Figur mit seiner Socke. Haut- und Stofftöne werden in dünnen Schichten aufgebaut, damit die Figur ihren Ausdruck und ihren schelmischen Charme behält." }
     }
   },
@@ -193,6 +194,7 @@
       "brutusCast": "Brutus, dargestellt von Tom McKay",
       "reencuentro": "Das Wiedersehen",
       "dobbyLabel": "Dobby",
+      "kaelthasLabel": "Kael'thas",
       "tableroFarkle": "Farkle-Brett",
       "setFarkleSet": "Farkle-Set",
       "miniFarkleLabel": "MiniFarkle",
@@ -574,6 +576,11 @@
       "short": "Lune-Figur aus Expedition 33 mit ihren Elementeffekten.",
       "description": "Detaillierte Figur der Lune aus dem Videospiel Expedition 33. Umgeben von ihren Elementeffekten, ist es ein komplexes, aber sehr schönes Stück. 21 cm hoch.",
       "customization": "Bemalung deiner eigenen Figur (Harz oder Miniatur mit Basis) mit den Effekten und Farben deiner Wahl."
+    },
+    "figura-kaelthas": {
+      "name": "Kael'thas",
+      "short": "Figur von Kael'thas im Maßstab 1:10, detailliert von Hand bemalt.",
+      "description": "Kael'thas ist eine Schlüsselfigur des Warcraft-Universums, bekannt als der letzte Prinz der Sonnenwanderer-Dynastie, ein mächtiger Magier der Kirin Tor und der Anführer der Blutelfen nach dem Untergang seines Reiches. Figur im Maßstab 1:10, von Hand detailliert bemalt und mit viel Liebe gemacht."
     },
     "figura-renoir": {
       "name": "Figur „Renoir“",

@@ -20,6 +20,7 @@ const CAPTION_KEYS = {
   'diorama-brutus': 'brutusCast',
   'figura-reencuentro': 'reencuentro',
   'figura-dobby': 'dobbyLabel',
+  'figura-kaelthas': 'kaelthasLabel',
   'set-farkle-blason': 'tableroFarkle',
   'set-farkle': 'setFarkleSet',
   'mini-farkle-viajero': 'miniFarkleLabel',
