@@ -1,6 +1,6 @@
 {
   "pages": {
-    "index": { "title": "JessyIsCrafting — Artesanía, pintura e ilustración hechas a mano en España", "description": "Sets de Farkle de madera, cuadros al óleo, dibujo digital y figuras pintadas a mano. Artesanía con alma, inspirada en el bosque y en Kingdom Come: Deliverance." },
+    "index": { "title": "JessyIsCrafting — Artesanía, pintura e ilustración hechas a mano en España", "description": "Sets de Farkle de madera, cuadros al óleo, dibujo digital y figuras pintadas a mano. Artesanía con alma, inspirada en el bosque y en Kingdom Come: Deliverance, hecha con mimo en España." },
     "tienda": { "title": "Tienda — JessyIsCrafting", "description": "Descubre artesanías de madera, cuadros al óleo, dibujo digital y figuras pintadas a mano. Piezas únicas y personalizables, hechas con mimo en España." },
     "galeria": { "title": "Galería — JessyIsCrafting", "description": "Un paseo visual por las piezas de JessyIsCrafting: artesanías, cuadros, dibujos y figuras, además de momentos del taller." },
     "contacto": { "title": "Contacto — JessyIsCrafting", "description": "Escríbeme para encargar una pieza, proponer una colaboración o resolver cualquier duda. Formulario de contacto, correo electrónico, Instagram y X." },
@@ -122,17 +122,6 @@
     "relatedEyebrow": "También te puede gustar",
     "relatedTitle": "Más piezas de esta misma familia"
   },
-  "a11y": {
-    "breadcrumb": "Ruta de navegación",
-    "previous": "Anterior",
-    "next": "Siguiente",
-    "close": "Cerrar",
-    "handPaintedFigure": "Figura pintada a mano",
-    "oilPainting": "Pintura al óleo",
-    "woodenFarkleSet": "Set Farkle de madera",
-    "filterGallery": "Filtrar galería",
-    "pagination": "Paginación"
-  },
   "search": {
     "label": "Buscar en el sitio",
     "placeholder": "Buscar...",
@@ -166,7 +155,6 @@
       "renoir": { "title": "Renoir", "description": "Figura de Renoir en su traje clásico, manchado con pinceladas doradas. Las costuras están pintadas con plateado, reflejando la luz, y la peána intenta simular un márcol con hojas rojas caídas." },
       "diorama-brutus": { "title": "Diorama Brutus", "description": "Me gustó tanto la interpretación de Tom McKay en la obra de teatro Julius Caesar, que tuve que hacer una figura para conmemorarlo.\n\nDiseñé la base desde cero, inspirándome en la fachada del escenario del Shakespeare's Globe, para poder poner al personaje de Brutus, literalmente, sobre el escenario.\n\nLa pose está sacada directamente de la obra, una de mis favoritas, donde se aprecia perfectamente los elementos del traje de época. Preciosa interpretación." },
       "figura-reencuentro": { "title": "El reencuentro", "description": "Este momento de reencuentro, una de mis escenas favoritas de Kingdom Come Deliverance 2. Tras pasar por innumerables calvarios, Henry por fin logra rescatar a Hans, y este abrazo es un momento muy especial.\n\nEs la primera vez que Hans se lanza a los brazos de Henry, y sus expresiones lo dicen todo. Pasando desde un alivio genuino hasta la máxima expresión de alegría, terminada con un sentido abrazo." },
-      "figura-kaelthas": { "title": "Kael'thas", "description": "Kael'thas es un personaje clave del universo de Warcraft, conocido por ser el último príncipe de la dinastía Caminante del Sol, un poderoso mago del Kirin Tor y el líder de los elfos de sangre tras la caída de su reino. Figura a escala 1/10 pintada a mano detalladamente y con mucho cariño." },
       "figura-dobby": { "title": "Dobby", "description": "Figura de Dobby con su calcetín, pintada a mano. Los tonos de piel y tela se construyen en capas finas para que el personaje conserve su expresión y su aire travieso." }
     }
   },
@@ -203,10 +191,9 @@
       "bosque": "Óleo sobre pizarra, un rincón de bosque.",
       "horreoGallego": "Hórreo gallego, arquitectura popular de Galicia.",
       "brutusCast": "Brutus, interpretación de Tom McKay",
-      "reencuentro": "El reencuentro de Hans y Henry",
+      "reencuentro": "El reencuentro",
       "dobbyLabel": "Dobby",
-      "kaelthasLabel": "Kael'thas",
-      "tableroFarkle": "Tablero de Farkle pintado a mano",
+      "tableroFarkle": "Tablero de Farkle",
       "setFarkleSet": "Set de Farkle",
       "miniFarkleLabel": "MiniFarkle",
       "luminosoLabel": "Luminoso",
@@ -482,7 +469,7 @@
       "finishes": { "caoba": "Caoba", "roble": "Roble Rústico" },
       "addons": { "cubilete-extra": { "name": "Cubilete artesanal extra", "description": "Piel sintética cosida a mano" }, "dados-extra": { "name": "Set de 12 dados", "description": "" }, "groschens-madera": { "name": "50 groschens de madera", "description": "" } },
       "name": "Set completo de Farkle",
-      "short": "Set completo de Farkle: tablero de 20 x 20 cm pintado a mano, 12 dados grabados, 4 dados especiales, dos cubiletes y 50 groschens de madera.",
+      "short": "Tablero de Farkle en formato caja de madera, pintada a mano con tus escudos favoritos.",
       "description": "Un tablero de Farkle en formato caja de 20 cm x 20 cm, pintado y decorado a mano con tus escudos o motivos favoritos. Un set de 12 dados de madera grabados a mano y 4 dados especiales que puedes elegir. Cabeza de diablo, Diente de Hugo... ¡escoge 4!\nSe incluyen dos cubiletes de piel sintética, cosidos a mano, para que todas tus tiradas salgan perfectas.\nY para completar el set, un juego de 50 groschens de madera, pintados a mano uno a uno, para hacer el juego más divertido.",
       "customization": "Puedes elegir los colores de la madera, los escudos que quieres en cada lado hasta 4 (dos por fuera y dos por dentro) o algún motivo personalizado como letras o dibujos."
     },
@@ -496,30 +483,30 @@
     },
     "set-dados-artesanales": {
       "name": "Set de dados artesanales",
-      "short": "Set de 12 dados de madera grabados a mano, de 2 cm x 2 cm, y 4 dados especiales personalizables.",
+      "short": "Dados grabados y pintados a mano con estética artesanal",
       "description": "Set de 12 dados de madera grabados a mano, de 2cmx2cm y 4 dados especiales que se pueden personalizar",
       "customization": "Puedes escoger 4 dados de diseño especial. Explícame tu idea o colores. Puedes escoger hasta 2 dados de borde redondeado."
     },
     "groschens-madera-50": {
       "name": "Groschens de madera",
-      "short": "50 groschens de madera inspirados en las monedas bohemias, pintados y barnizados uno a uno, en bolsa de rafia.",
+      "short": "50 groschens de madera, pintados uno a uno",
       "description": "50 monedas de madera que emulan el diseño de los groschens bohemios. Pintadas y barnizadas una a una, guardadas en una bolsa de rafia."
     },
     "cubilete-artesanal": {
       "name": "Cubilete artesanal",
-      "short": "Cubilete de piel sintética de 10 cm de alto, cortado y cosido a mano con un elegante patrón en X.",
+      "short": "Cubiletes de piel sintética cortados y cosidos a mano",
       "description": "Cubilete de piel sintética de 10 cm de alto, ideal para lanzar dados. Cosidos a mano con elegante patrón en X. Precio por unidad.",
       "addons": { "dados-6": { "name": "Set de dados", "description": "" }, "groschens-madera": { "name": "50 groschens de madera", "description": "" } }
     },
     "figura-reencuentro": {
       "name": "El reencuentro",
-      "short": "Figura de resina del abrazo de Hans y Henry en su reencuentro, de 16 cm de alto, con base incluida.",
+      "short": "Abrazo en el reencuentro de Hans y Henry",
       "description": "Figura en resina de 16 cm de alto con base incluida. Representación del abrazo entre Hans y Henry durante el rescate en Malesov. Sus expresiones de alivio son realmente tiernas.",
       "customization": "Puedes escoger el color del gambesón y de los pantalones de Henry o de Hans, pero no la forma de la figura."
     },
     "figura-dobby": {
       "name": "«Dobby», de Harry Potter",
-      "short": "Figura de Dobby de resina con su calcetín, de 18 cm de alto, pintada a mano con tonos naturales y acabado mate.",
+      "short": "Figura de Dobby con su calcetín",
       "description": "Figura en resina del elfo Dobby, de 18 cm de altura. Colores naturales y acabo en mate, con brillos en los ojos y en la chispa de magia."
     },
     "oleo-minas-tirith": {
@@ -587,11 +574,6 @@
       "short": "Figura de Lune de Expedition33 con sus efectos elementales.",
       "description": "Figura detallada de Lune del videojuego Expedition33. Rodeada por sus efectos elementales, se trata de una pieza compleja pero de gran belleza. 21 cm de alto.",
       "customization": "Pintura de tu propia figura (resina o miniatura de peana) con los efectos y colores que prefieras."
-    },
-    "figura-kaelthas": {
-      "name": "Kael'thas",
-      "short": "Figura de Kael'thas a escala 1/10, pintada a mano con mucho detalle.",
-      "description": "Kael'thas es un personaje clave del universo de Warcraft, conocido por ser el último príncipe de la dinastía Caminante del Sol, un poderoso mago del Kirin Tor y el líder de los elfos de sangre tras la caída de su reino. Figura a escala 1/10 pintada a mano detalladamente y con mucho cariño."
     },
     "figura-renoir": {
       "name": "Figura «Renoir»",

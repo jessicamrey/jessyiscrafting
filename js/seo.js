@@ -24,31 +24,20 @@
   }
 
   const LANGS = ['es', 'en', 'de'];
+  const DEFAULT_LANG = 'en';
 
-  // Idioma activo de una página localizada (lo fija i18n.js en <html lang>).
-  // Las páginas sin versión por idioma (fanfics, lector) siempre usan la URL en inglés.
-  function pageLang() {
-    if (!document.documentElement.hasAttribute('data-localized')) return 'en';
-    const lang = document.documentElement.getAttribute('lang');
-    return LANGS.indexOf(lang) > -1 ? lang : 'en';
+  // Idioma de la URL (?lang=); sin parámetro o no válido, inglés.
+  function urlLang() {
+    const lang = new URLSearchParams(location.search).get('lang');
+    return LANGS.indexOf(lang) > -1 ? lang : DEFAULT_LANG;
   }
 
-  // URL pública de una página en un idioma: inglés en la raíz, es/ y de/ en su carpeta.
-  function localizedUrl(url, lang) {
-    const source = new URL(url, SITE_URL);
-    const segments = source.pathname.split('/').filter(Boolean);
-    if (LANGS.indexOf(segments[0]) > -1) segments.shift();
-    if (segments[segments.length - 1] === 'index.html') {
-      segments.pop();
-    } else if (segments.length) {
-      segments[segments.length - 1] = segments[segments.length - 1].replace(/\.html$/i, '');
-    }
-    const path = (lang === 'en' ? [] : [lang]).concat(segments).join('/');
-    const out = new URL(path, SITE_URL);
-    source.searchParams.forEach((value, key) => {
-      if (key !== 'lang') out.searchParams.append(key, value);
-    });
-    return out.href;
+  // El inglés es la versión sin ?lang=.
+  function langUrl(url, lang) {
+    const u = new URL(url, SITE_URL);
+    u.searchParams.delete('lang');
+    if (lang !== DEFAULT_LANG) u.searchParams.set('lang', lang);
+    return u.href;
   }
 
   function setCanonical(url) {
@@ -58,7 +47,7 @@
       link.rel = 'canonical';
       document.head.appendChild(link);
     }
-    link.href = localizedUrl(url, pageLang());
+    link.href = langUrl(url, urlLang());
   }
 
   function setAlternates(url) {
@@ -67,13 +56,13 @@
       const link = document.createElement('link');
       link.rel = 'alternate';
       link.hreflang = lang;
-      link.href = localizedUrl(url, lang);
+      link.href = langUrl(url, lang);
       document.head.appendChild(link);
     });
     const def = document.createElement('link');
     def.rel = 'alternate';
     def.hreflang = 'x-default';
-    def.href = localizedUrl(url, 'en');
+    def.href = langUrl(url, DEFAULT_LANG);
     document.head.appendChild(def);
   }
 
@@ -92,7 +81,7 @@
       const url = absoluteUrl(opts.url);
       setCanonical(url);
       if (opts.localized) setAlternates(url);
-      upsertMeta('property', 'og:url', localizedUrl(url, pageLang()));
+      upsertMeta('property', 'og:url', langUrl(url, urlLang()));
     }
     if (opts.image) {
       upsertMeta('property', 'og:image', absoluteUrl(opts.image));

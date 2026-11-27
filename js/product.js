@@ -81,17 +81,16 @@
 
     function setMain(index) {
       const base = product.images[index];
-      const image = window.JIC_I18N.assetUrl(base);
       main.innerHTML = `
         <button type="button" class="product-gallery__open" aria-label="${dict.productDetail.zoomImage}">
           <picture>
-            <source srcset="${image}.webp" type="image/webp">
-            <img src="${image}.jpg" alt="${name}" id="galleryMainImg">
+            <source srcset="${base}.webp" type="image/webp">
+            <img src="${base}.jpg" alt="${name}" id="galleryMainImg">
           </picture>
           <span class="product-gallery__zoom" aria-hidden="true">+</span>
         </button>`;
       main.querySelector('button').addEventListener('click', () => {
-        window.openLightbox(product.images.map((b) => ({ src: `${window.JIC_I18N.assetUrl(b)}.jpg`, alt: name })), index);
+        window.openLightbox(product.images.map((b) => ({ src: `${b}.jpg`, alt: name })), index);
       });
       thumbs?.querySelectorAll('button').forEach((b, i) => b.classList.toggle('is-active', i === index));
     }
@@ -101,7 +100,7 @@
     if (thumbs && product.images.length > 1) {
       thumbs.innerHTML = product.images.map((img, i) => `
         <button type="button" class="${i === 0 ? 'is-active' : ''}" data-index="${i}" aria-label="Imagen ${i + 1}">
-          <img src="${window.JIC_I18N.assetUrl(img)}-thumb.jpg" alt="">
+          <img src="${img}-thumb.jpg" alt="">
         </button>
       `).join('');
       thumbs.querySelectorAll('button').forEach((btn) => {
@@ -122,14 +121,13 @@
     container.innerHTML = related.map((p) => {
       const t = dict.products[p.id] || {};
       const img = p.images[0];
-      const image = window.JIC_I18N.assetUrl(img);
       const href = window.JIC_I18N.productUrl(p.id);
       return `
         <article class="product-card">
           <a class="product-card__media" href="${href}">
             <picture>
-              <source srcset="${image}-thumb.webp" type="image/webp">
-              <img src="${image}-thumb.jpg" alt="${t.name || ''}" loading="lazy" width="640" height="800">
+              <source srcset="${img}-thumb.webp" type="image/webp">
+              <img src="${img}-thumb.jpg" alt="${t.name || ''}" loading="lazy" width="640" height="800">
             </picture>
           </a>
           <div class="product-card__body">
@@ -452,7 +450,7 @@
 
   function init() {
     const id = getIdFromUrl();
-    fetch((document.documentElement.getAttribute('data-root') || '') + 'data/products.json')
+    fetch('data/products.json')
       .then((res) => res.json())
       .then((data) => {
         products = data;

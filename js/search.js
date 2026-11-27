@@ -3,9 +3,8 @@
  * galería, fanfics y capítulos, y muestra resultados mientras se escribe.
  */
 (function () {
-  const ROOT = document.documentElement.getAttribute('data-root') || '';
-  const PRODUCTS_URL = ROOT + 'data/products.json';
-  const GALLERY_URL = ROOT + 'data/galeria.json';
+  const PRODUCTS_URL = 'data/products.json';
+  const GALLERY_URL = 'data/galeria.json';
   const DEBOUNCE_MS = 120;
   const MAX_RESULTS = 10;
 
@@ -139,7 +138,7 @@
         type: 'fanfic',
         title,
         body: [t.summary || story.summary, (story.tags || []).join(' ')].join('\n'),
-        url: (story.chapters || []).length ? `fanfic-${encodeURIComponent(id)}-1.html` : ROOT + 'fanfics.html',
+        url: (story.chapters || []).length ? `fanfic-${encodeURIComponent(id)}-1.html` : 'fanfics.html',
       }));
       (story.chapters || []).forEach((ch, i) => {
         out.push(makeEntry({
@@ -217,7 +216,7 @@
         return `
           <li role="option" id="siteSearchOpt${i}" class="site-search__item${i === activeIndex ? ' is-active' : ''}" aria-selected="${i === activeIndex}">
             <a href="${escapeHtml(r.url)}" tabindex="-1">
-                ${r.image ? `<img class="site-search__thumb" src="${escapeHtml(window.JIC_I18N.assetUrl(r.image))}" alt="" loading="lazy">` : ''}
+              ${r.image ? `<img class="site-search__thumb" src="${escapeHtml(r.image)}" alt="" loading="lazy">` : ''}
               <span class="site-search__text">
                 <span class="site-search__type">${escapeHtml(typeLabel)}${context}</span>
                 <span class="site-search__title">${highlight(r.title, terms)}</span>
