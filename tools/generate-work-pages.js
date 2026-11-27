@@ -127,7 +127,7 @@ ${hreflangLinks(file)}
 <meta property="og:url" content="${SITE_URL}${file}">
 <meta property="og:image" content="${SITE_URL}${image}">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" type="image/png" href="assets/img/brand/favicon.png">
+<link rel="icon" href="favicon.ico" sizes="any">
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#37472f">
 <link rel="preconnect" href="https://fonts.googleapis.com">

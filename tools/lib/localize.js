@@ -47,7 +47,7 @@ function headLinks(file, lang) {
 }
 
 // Reescribe rutas relativas de recursos (css, js, assets, data...) con el prefijo de la raíz.
-const ASSET_ATTR = /(\s(?:href|src|srcset|data-lightbox|poster)=")((?:css|js|assets|data|i18n|partials)\/[^"]*|manifest\.json)"/g;
+const ASSET_ATTR = /(\s(?:href|src|srcset|data-lightbox|poster)=")((?:css|js|assets|data|i18n|partials)\/[^"]*|manifest\.json|favicon\.ico)"/g;
 function rewriteAssetPaths(html, prefix) {
   if (!prefix) return html;
   return html.replace(ASSET_ATTR, (_, attr, path) => `${attr}${prefix}${path}"`);
